@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/intro_identification.unity
   - enabled: 1
     path: Assets/Scenes/intro_differentiation.unity
+  - enabled: 1
+    path: Assets/Scenes/scene1_identification.unity
+  - enabled: 1
+    path: Assets/Scenes/scene1_differentiation.unity
