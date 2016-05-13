@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Party Scareleader
+  nameText: Scarella says...
   nameColor: {r: 0.9821501, g: 0.6764706, b: 1, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}

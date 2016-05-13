@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,14 +39,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Scareleading Captain
+  nameText: Cari Wheeler says...
   nameColor: {r: 0.86206913, g: 0, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 21300000, guid: 9625703813c4c2646ae057b9ef089ea0, type: 3}
+  profileSprite: {fileID: 21300000, guid: 8a0dffda3451e6b46866e40aeeaf6dc4, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 9625703813c4c2646ae057b9ef089ea0, type: 3}
-  - {fileID: 21300000, guid: 88549272be72d9f4698f43ab63a960e2, type: 3}
+  - {fileID: 21300000, guid: 8a0dffda3451e6b46866e40aeeaf6dc4, type: 3}
+  - {fileID: 21300000, guid: 40e2c611d3064b04fbdd2894a438bee6, type: 3}
   - {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  - {fileID: 21300000, guid: d87fae2aa28e97244a1cb7e6b357670e, type: 3}
+  - {fileID: 21300000, guid: 25bb0270e7787d34da4b0af4541b6a22, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

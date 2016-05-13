@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,14 +39,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Bully 3
+  nameText: Meen E. says...
   nameColor: {r: 0.71323526, g: 0.33347002, b: 0.16257566, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
   portraits:
   - {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
-  - {fileID: 21300000, guid: 5371bc3d98982eb40bce375bb8cd91d5, type: 3}
-  - {fileID: 21300000, guid: 4e755c9d51095d54e99869fd5d305b21, type: 3}
+  - {fileID: 21300000, guid: 42d2921da50dc7d44b3ac3e34cfd7011, type: 3}
+  - {fileID: 21300000, guid: 9017249f822e8c04495072f8701e75ff, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

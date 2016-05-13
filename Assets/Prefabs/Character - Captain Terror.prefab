@@ -39,14 +39,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Captain Terror
+  nameText: Captain Terror says...
   nameColor: {r: 0, g: 1, b: 0.79310346, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 21300000, guid: f5996c4e08b40d3489674f2a42fce926, type: 3}
+  profileSprite: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   portraits:
-  - {fileID: 21300000, guid: f5996c4e08b40d3489674f2a42fce926, type: 3}
-  - {fileID: 21300000, guid: 1a02142685e6c474eb571e34fa0def4d, type: 3}
-  - {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  - {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
+  - {fileID: 21300000, guid: cf0a63d4f235a424b8c3b1c09246ffc2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

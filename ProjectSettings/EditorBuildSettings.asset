@@ -6,20 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/selection.unity
+  - enabled: 1
     path: Assets/Scenes/start.unity
+  - enabled: 1
+    path: Assets/Scenes/introduction.unity
   - enabled: 1
     path: Assets/Scenes/scene0_kitchen.unity
   - enabled: 0
     path: Assets/Scenes/intro_differentiation.unity
   - enabled: 1
+    path: Assets/Scenes/transition3_to_cafeteria.unity
+  - enabled: 1
     path: Assets/Scenes/scene1_mathClass.unity
+  - enabled: 1
+    path: Assets/Scenes/transition2_to_hallway.unity
   - enabled: 0
     path: Assets/Scenes/scene1_mathClass.unity
   - enabled: 1
     path: Assets/Scenes/scene2_hallway.unity
   - enabled: 1
+    path: Assets/Scenes/transition4_to_scareleading.unity
+  - enabled: 1
     path: Assets/Scenes/scene3_cafeteria.unity
+  - enabled: 1
+    path: Assets/Scenes/transition1_to_mathClass.unity
   - enabled: 1
     path: Assets/Scenes/scene4_scareleading.unity
   - enabled: 1
+    path: Assets/Scenes/transition5_to_party.unity
+  - enabled: 1
     path: Assets/Scenes/scene5_party.unity
+  - enabled: 1
+    path: Assets/Scenes/ending.unity

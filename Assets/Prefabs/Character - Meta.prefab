@@ -39,21 +39,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Meta
+  nameText: Meta says...
   nameColor: {r: 0.14901961, g: 0.45490196, b: 0.21568628, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 21300000, guid: 0d6c3525955a6634eb0f72160257f70d, type: 3}
+  profileSprite: {fileID: 21300000, guid: 99a0f361232abf449a4257b41897b5fc, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 0d6c3525955a6634eb0f72160257f70d, type: 3}
-  - {fileID: 21300000, guid: f109da9554b38e74fb580ce5a1c186d4, type: 3}
+  - {fileID: 21300000, guid: 99a0f361232abf449a4257b41897b5fc, type: 3}
+  - {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
   - {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
-  - {fileID: 21300000, guid: 434cfcffefaaee945aa8f46019b5f1c5, type: 3}
-  - {fileID: 21300000, guid: d3f42cef75f67ad448a52140c9289026, type: 3}
+  - {fileID: 21300000, guid: 930c2ca1becbac0439bd77d4898636e4, type: 3}
+  - {fileID: 21300000, guid: a13ffbd3c1afeae489da8c672d2f6b2f, type: 3}
   - {fileID: 21300000, guid: d33875059b6ae8f46b53c27033b12ae7, type: 3}
-  - {fileID: 21300000, guid: 465ba94a98822d2499e9393df2289ff9, type: 3}
-  - {fileID: 21300000, guid: 46090df348cd28e41a0e1e9aca723622, type: 3}
-  - {fileID: 21300000, guid: b13c4cd5ae6b8a74fb4974e9186365a6, type: 3}
-  - {fileID: 21300000, guid: 0a408b88494ce9a4ca355d28465b8dbf, type: 3}
+  - {fileID: 21300000, guid: bc75c3bc70ae7dc4f991ba9b45e1989d, type: 3}
+  - {fileID: 21300000, guid: 764a6fa0f38559846882c8a270ca4d07, type: 3}
+  - {fileID: 21300000, guid: 1908b9f553b22834ba1ecd5a2542739e, type: 3}
+  - {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Meta - the main character

@@ -85,6 +85,52 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &358912513
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1416803038}
+    m_Modifications:
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &358912514 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_PrefabInternal: {fileID: 358912513}
 --- !u!1 &402393316
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +205,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &443996791
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +237,7 @@ Transform:
   - {fileID: 1416803038}
   - {fileID: 1403900095}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &520613088
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,11 +292,6 @@ GameObject:
   - 114: {fileID: 520613111}
   - 114: {fileID: 520613110}
   - 114: {fileID: 520613109}
-  - 114: {fileID: 520613108}
-  - 114: {fileID: 520613107}
-  - 114: {fileID: 520613106}
-  - 114: {fileID: 520613105}
-  - 114: {fileID: 520613104}
   - 114: {fileID: 520613103}
   - 114: {fileID: 520613102}
   - 114: {fileID: 520613101}
@@ -265,6 +306,9 @@ GameObject:
   - 114: {fileID: 520613092}
   - 114: {fileID: 520613091}
   - 114: {fileID: 520613090}
+  - 114: {fileID: 520613105}
+  - 114: {fileID: 520613104}
+  - 114: {fileID: 520613106}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -555,12 +599,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 107
   errorMessage: 
   indentLevel: 0
-  sceneName: scene1_mathClass
+  sceneName: transition1_to_mathClass
   loadingImage: {fileID: 0}
 --- !u!114 &520613105
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520613088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &520613106
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -571,12 +634,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 108
   errorMessage: 
   indentLevel: 0
-  storyText: Meta leaves for class, nervous but excited for their first day of school.
+  storyText: Meta will need a hat, pencils, and lunchbox. Put all the things Meta
+    needs into the backpack.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1193505690}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -585,62 +649,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &520613106
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 520613088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 2037909998}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &520613107
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 520613088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &520613108
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 520613088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  errorMessage: 
-  indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &520613109
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -944,9 +952,9 @@ MonoBehaviour:
   itemId: 30
   errorMessage: 
   indentLevel: 0
-  storyText: All packed up? Go talk to Meta's Mother!
+  storyText: "Meta shouldn\u2019t forget to say goodbye to Mom!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1193505690}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1001,9 +1009,6 @@ MonoBehaviour:
   - {fileID: 520613118}
   - {fileID: 520613117}
   - {fileID: 520613116}
-  - {fileID: 520613108}
-  - {fileID: 520613107}
-  - {fileID: 520613106}
   - {fileID: 520613105}
   - {fileID: 520613104}
 --- !u!114 &520613124
@@ -1475,11 +1480,10 @@ MonoBehaviour:
   itemId: 8
   errorMessage: 
   indentLevel: 0
-  storyText: "It\u2019s time for you to help Meta get ready for their new school!
-    How exciting! Meta will need their hat, pencils, and lunchbox before they go.
-    When Meta\u2019s ready, go talk to their mother!"
+  storyText: "It\u2019s time for Meta to get ready for the first day at school! How
+    exciting!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1193505690}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1506,7 +1510,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1521641655}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 25031bec20def69459e3ffa6fee7c8e9, type: 3}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 638177955}
@@ -1536,7 +1540,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 539621423}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a6c7223ff9b85874681dd7be5a7c1716, type: 3}
+  portrait: {fileID: 21300000, guid: 888f3d4e2eb01514daf52dcb5f204663, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 638177956}
@@ -1640,11 +1644,11 @@ MonoBehaviour:
   itemId: 2
   errorMessage: 
   indentLevel: 0
-  storyText: Going to a new school sounds exciting! Especially in a big city. It's
-    going to be a big day, so let's get started! Go and have breakfast with Meta and
-    their mother.
+  storyText: "It will be exciting for Meta to go to a new school! Especially in a
+    big city. It\u2019s going to be a big day for Meta, so help them meet their mother
+    for breakfast."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1193505690}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1724,6 +1728,7 @@ MonoBehaviour:
   - {fileID: 520613143}
   - {fileID: 520613142}
   - {fileID: 520613144}
+  - {fileID: 520613106}
   - {fileID: 520613141}
   - {fileID: 520613140}
   - {fileID: 520613139}
@@ -1751,16 +1756,16 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600002
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -361.70215
     y: -448.93616
     width: 2164.8027
     height: 1066.9364
-  selectedBlock: {fileID: 520613123}
+  selectedBlock: {fileID: 520613153}
   selectedCommands:
-  - {fileID: 520613104}
+  - {fileID: 520613106}
   variables:
   - {fileID: 520613129}
   description: 
@@ -1853,7 +1858,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1001 &638177954
 Prefab:
   m_ObjectHideFlags: 0
@@ -1933,8 +1938,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 704018783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: -0.093545854, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3703609, z: 1}
+  m_LocalPosition: {x: 1.86, y: -0.17, z: 0}
+  m_LocalScale: {x: 1.322424, y: 1.4305009, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 0
@@ -2051,7 +2056,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!61 &1019054576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2171,7 +2176,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 704018784}
-  - {fileID: 2037909997}
   - {fileID: 402393319}
   - {fileID: 1589305669}
   - {fileID: 2098737407}
@@ -2179,7 +2183,7 @@ Transform:
   - {fileID: 1247285814}
   - {fileID: 1595643873}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1001 &1131503245
 Prefab:
   m_ObjectHideFlags: 0
@@ -2222,6 +2226,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 750a944b3335bb8428bd64d5c706f8fb, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1193505690 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11442454, guid: f4eb81599cc437a4cb2b85ab00e6487a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383087853}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &1247285813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,7 +2263,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!114 &1247285815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2391,7 +2401,49 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
+--- !u!1001 &1383087853
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1403900094
 Prefab:
   m_ObjectHideFlags: 0
@@ -2429,7 +2481,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22403282, guid: 4ed45a4cee7978a4185328a2840df6d0, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 22403282, guid: 4ed45a4cee7978a4185328a2840df6d0, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -2513,6 +2565,8 @@ Transform:
   - {fileID: 539621422}
   - {fileID: 751584515}
   - {fileID: 1521641654}
+  - {fileID: 358912514}
+  - {fileID: 1976356285}
   m_Father: {fileID: 443996792}
   m_RootOrder: 3
 --- !u!224 &1458104847 stripped
@@ -2603,7 +2657,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!61 &1589305670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2728,7 +2782,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!114 &1595643874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2907,7 +2961,59 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
+--- !u!1001 &1976356284
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1416803038}
+    m_Modifications:
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1976356285 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_PrefabInternal: {fileID: 1976356284}
+--- !u!114 &1976356286 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11458930, guid: ad78c63d7a607c7459d78f835398a629,
+    type: 2}
+  m_PrefabInternal: {fileID: 1976356284}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &2029743942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,11 +3064,6 @@ GameObject:
   - 114: {fileID: 2029743947}
   - 114: {fileID: 2029743946}
   - 114: {fileID: 2029743945}
-  - 114: {fileID: 2029743954}
-  - 114: {fileID: 2029743952}
-  - 114: {fileID: 2029743944}
-  - 114: {fileID: 2029743957}
-  - 114: {fileID: 2029743979}
   - 114: {fileID: 2029743982}
   - 114: {fileID: 2029743992}
   - 114: {fileID: 2029743995}
@@ -2976,38 +3077,11 @@ GameObject:
   - 114: {fileID: 2029744003}
   - 114: {fileID: 2029744002}
   - 114: {fileID: 2029744001}
-  - 114: {fileID: 2029744033}
-  - 114: {fileID: 2029744032}
-  - 114: {fileID: 2029744031}
-  - 114: {fileID: 2029744030}
-  - 114: {fileID: 2029744029}
-  - 114: {fileID: 2029744028}
-  - 114: {fileID: 2029744027}
-  - 114: {fileID: 2029744026}
-  - 114: {fileID: 2029744025}
-  - 114: {fileID: 2029744024}
-  - 114: {fileID: 2029744023}
-  - 114: {fileID: 2029744022}
-  - 114: {fileID: 2029744021}
-  - 114: {fileID: 2029744020}
-  - 114: {fileID: 2029744019}
-  - 114: {fileID: 2029744018}
-  - 114: {fileID: 2029744017}
-  - 114: {fileID: 2029744015}
-  - 114: {fileID: 2029744014}
-  - 114: {fileID: 2029744012}
-  - 114: {fileID: 2029744011}
-  - 114: {fileID: 2029744009}
-  - 114: {fileID: 2029744008}
-  - 114: {fileID: 2029744006}
-  - 114: {fileID: 2029744005}
-  - 114: {fileID: 2029744035}
-  - 114: {fileID: 2029744034}
-  - 114: {fileID: 2029744016}
-  - 114: {fileID: 2029744013}
-  - 114: {fileID: 2029744010}
   - 114: {fileID: 2029744007}
   - 114: {fileID: 2029744004}
+  - 114: {fileID: 2029743952}
+  - 114: {fileID: 2029743944}
+  - 114: {fileID: 2029743954}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -3035,23 +3109,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2029743942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
+  itemId: 106
   errorMessage: 
   indentLevel: 0
-  storyText: You leave for class, nervous but excited for your first day of school.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  sceneName: transition1_to_mathClass
+  loadingImage: {fileID: 0}
 --- !u!114 &2029743945
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3207,10 +3272,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 46
+  itemId: 83
   errorMessage: 
   indentLevel: 0
-  duration: 3
+  duration: 2
   targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -3253,14 +3318,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2029743942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 45
+  itemId: 107
   errorMessage: 
   indentLevel: 0
-  sceneName: scene1_mathClass
-  loadingImage: {fileID: 0}
+  storyText: "I\u2019ll need my hat, pencils, and lunchbox. I should put all the things
+    I need into my backpack."
+  description: 
+  character: {fileID: 1976356286}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &2029743955
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3278,7 +3353,7 @@ MonoBehaviour:
   storyText: Ready to go, Meta? I hope you have a wonderful day!
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3316,24 +3391,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &2029743957
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 48
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 2037909998}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &2029743958
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3348,9 +3405,9 @@ MonoBehaviour:
   itemId: 30
   errorMessage: 
   indentLevel: 0
-  storyText: All packed up? Go talk to Mom!
+  storyText: "I can\u2019t forget to say goodbye to Mom!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1976356286}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3404,10 +3461,7 @@ MonoBehaviour:
   - {fileID: 2029743955}
   - {fileID: 2029743953}
   - {fileID: 2029743952}
-  - {fileID: 2029743979}
-  - {fileID: 2029743957}
   - {fileID: 2029743944}
-  - {fileID: 2029743954}
 --- !u!114 &2029743961
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3803,25 +3857,6 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &2029743979
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 49
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &2029743980
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3866,11 +3901,9 @@ MonoBehaviour:
   itemId: 8
   errorMessage: 
   indentLevel: 0
-  storyText: "It\u2019s time to get ready for your new school! How exciting! You'll
-    need your hat, pencils, and lunchbox before you go. When you're ready, go talk
-    to Mom!"
+  storyText: "It\u2019s time to get ready for my first day at school! How exciting!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1976356286}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3914,7 +3947,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 539621423}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: fd10395a7b1f6a74bbedb14c42074f66, type: 3}
+  portrait: {fileID: 21300000, guid: 6bb5c3829b5746c47acc1745b2bed162, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1458104847}
@@ -3944,7 +3977,7 @@ MonoBehaviour:
     your first day."
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3970,7 +4003,7 @@ MonoBehaviour:
     monsters.
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4019,10 +4052,10 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Going to a new school sounds exciting! Especially in a big city. It's
-    going to be a big day, Meta, so let's get started! Go and meet your mother for
-    breakfast.
+    going to be a big day, so I should get started! I need to go and meet my mother
+    for breakfast.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1976356286}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4060,7 +4093,7 @@ MonoBehaviour:
   storyText: Hey, kiddo, excited for your first day?
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4099,6 +4132,7 @@ MonoBehaviour:
   - {fileID: 2029743984}
   - {fileID: 2029743980}
   - {fileID: 2029743981}
+  - {fileID: 2029743954}
   - {fileID: 2029743978}
   - {fileID: 2029743977}
   - {fileID: 2029743976}
@@ -4126,7 +4160,7 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.5800004
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -351.81818
@@ -4134,7 +4168,8 @@ MonoBehaviour:
     width: 2162.2837
     height: 1269.3977
   selectedBlock: {fileID: 2029743990}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2029743954}
   variables:
   - {fileID: 2029743966}
   description: 
@@ -4391,46 +4426,6 @@ MonoBehaviour:
   targetObject: {fileID: 1247285813}
   methodName: SetHoverActive
   delay: 0
---- !u!114 &2029744005
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 80
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1595643872}
-  methodName: SetHoverActive
-  delay: 0
---- !u!114 &2029744006
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 846.423
-    y: 440.85226
-    width: 281
-    height: 40
-  itemId: 79
-  blockName: End Drag Cookie Jar
-  description: 
-  eventHandler: {fileID: 2029744010}
-  commandList:
-  - {fileID: 2029744005}
 --- !u!114 &2029744007
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4448,496 +4443,6 @@ MonoBehaviour:
   targetObject: {fileID: 1595643872}
   methodName: SetHoverActive
   delay: 0
---- !u!114 &2029744008
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 78
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1589305668}
-  methodName: SetHoverActive
-  delay: 0
---- !u!114 &2029744009
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 816.0823
-    y: 390.96527
-    width: 249
-    height: 40
-  itemId: 77
-  blockName: End Drag Pencil
-  description: 
-  eventHandler: {fileID: 2029744013}
-  commandList:
-  - {fileID: 2029744008}
---- !u!114 &2029744010
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30a6fae3a8a24fa097a262570f519ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744006}
-  draggableObject: {fileID: 1595643876}
---- !u!114 &2029744011
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 76
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1247285813}
-  methodName: SetHoverActive
-  delay: 0
---- !u!114 &2029744012
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 810.9072
-    y: 333.7848
-    width: 241
-    height: 40
-  itemId: 75
-  blockName: End Drag Pan
-  description: 
-  eventHandler: {fileID: 2029744016}
-  commandList:
-  - {fileID: 2029744011}
---- !u!114 &2029744013
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30a6fae3a8a24fa097a262570f519ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744009}
-  draggableObject: {fileID: 1589305671}
---- !u!114 &2029744014
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 74
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1019054574}
-  methodName: SetHoverActive
-  delay: 0
---- !u!114 &2029744015
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 818.03894
-    y: 275.54294
-    width: 229
-    height: 40
-  itemId: 73
-  blockName: End Drag Hat
-  description: 
-  eventHandler: {fileID: 2029744034}
-  commandList:
-  - {fileID: 2029744014}
---- !u!114 &2029744016
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30a6fae3a8a24fa097a262570f519ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744012}
-  draggableObject: {fileID: 1247285817}
---- !u!114 &2029744017
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 72
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 2098737406}
-  methodName: SetHoverActive
-  delay: 0
---- !u!114 &2029744018
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 827.7532
-    y: 219.49902
-    width: 264
-    height: 40
-  itemId: 71
-  blockName: End Drag Lunchbox
-  description: 
-  eventHandler: {fileID: 2029744035}
-  commandList:
-  - {fileID: 2029744017}
---- !u!114 &2029744019
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538cc00e40e51400fb9bb5f6d8a9759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744021}
-  draggableObject: {fileID: 1247285817}
---- !u!114 &2029744020
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 70
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1247285813}
-  methodName: SetHoverInactive
-  delay: 0
---- !u!114 &2029744021
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 549.9072
-    y: 333.7848
-    width: 241
-    height: 40
-  itemId: 69
-  blockName: Start Drag Pan
-  description: 
-  eventHandler: {fileID: 2029744019}
-  commandList:
-  - {fileID: 2029744020}
---- !u!114 &2029744022
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538cc00e40e51400fb9bb5f6d8a9759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744024}
-  draggableObject: {fileID: 1595643876}
---- !u!114 &2029744023
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 68
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1595643872}
-  methodName: SetHoverInactive
-  delay: 0
---- !u!114 &2029744024
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 545.423
-    y: 440.85226
-    width: 281
-    height: 40
-  itemId: 67
-  blockName: Start Drag Cookie Jar
-  description: 
-  eventHandler: {fileID: 2029744022}
-  commandList:
-  - {fileID: 2029744023}
---- !u!114 &2029744025
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538cc00e40e51400fb9bb5f6d8a9759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744027}
-  draggableObject: {fileID: 1019054577}
---- !u!114 &2029744026
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1019054574}
-  methodName: SetHoverInactive
-  delay: 0
---- !u!114 &2029744027
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 569.03894
-    y: 275.54294
-    width: 229
-    height: 40
-  itemId: 65
-  blockName: Start Drag Hat
-  description: 
-  eventHandler: {fileID: 2029744025}
-  commandList:
-  - {fileID: 2029744026}
---- !u!114 &2029744028
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538cc00e40e51400fb9bb5f6d8a9759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744030}
-  draggableObject: {fileID: 2098737408}
---- !u!114 &2029744029
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 64
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 2098737406}
-  methodName: SetHoverInactive
-  delay: 0
---- !u!114 &2029744030
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 543.7532
-    y: 221.93805
-    width: 264
-    height: 40
-  itemId: 63
-  blockName: Start Drag Lunchbox
-  description: 
-  eventHandler: {fileID: 2029744028}
-  commandList:
-  - {fileID: 2029744029}
---- !u!114 &2029744031
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 62
-  errorMessage: 
-  indentLevel: 0
-  targetObject: {fileID: 1589305668}
-  methodName: SetHoverInactive
-  delay: 0
---- !u!114 &2029744032
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538cc00e40e51400fb9bb5f6d8a9759c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744033}
-  draggableObject: {fileID: 1589305671}
---- !u!114 &2029744033
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 547.0823
-    y: 389.8289
-    width: 249
-    height: 40
-  itemId: 61
-  blockName: Start Drag Pencil
-  description: 
-  eventHandler: {fileID: 2029744032}
-  commandList:
-  - {fileID: 2029744031}
---- !u!114 &2029744034
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30a6fae3a8a24fa097a262570f519ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744015}
-  draggableObject: {fileID: 1019054577}
---- !u!114 &2029744035
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2029743942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b30a6fae3a8a24fa097a262570f519ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 2029744018}
-  draggableObject: {fileID: 2098737408}
 --- !u!1 &2031054710
 GameObject:
   m_ObjectHideFlags: 1
@@ -4965,7 +4470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2029743991}
+  selectedFlowchart: {fileID: 520613154}
 --- !u!4 &2031054712
 Transform:
   m_ObjectHideFlags: 1
@@ -4978,56 +4483,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1001 &2037909996
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1027236070}
-    m_Modifications:
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &2037909997 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 2037909996}
---- !u!1 &2037909998 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 2037909996}
 --- !u!1 &2098737406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,7 +4514,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1027236070}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!114 &2098737408
 MonoBehaviour:
   m_ObjectHideFlags: 0

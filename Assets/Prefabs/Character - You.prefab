@@ -39,14 +39,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: You
+  nameText: You say...
   nameColor: {r: 0.15084344, g: 0.45588237, b: 0.21605864, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 21300000, guid: 5c1bf3037ee30a843bdec04ae37062d0, type: 3}
-  portraits:
-  - {fileID: 21300000, guid: 5c1bf3037ee30a843bdec04ae37062d0, type: 3}
-  - {fileID: 21300000, guid: 25031bec20def69459e3ffa6fee7c8e9, type: 3}
-  - {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  profileSprite: {fileID: 0}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Meta - the main character

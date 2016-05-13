@@ -37,6 +37,10 @@ public class SceneController : MonoBehaviour {
         type = GameType.Differentiation;
     }
 
+    public void OnExitClicked()
+    {
+        Application.Quit();
+    }
 
 
 }

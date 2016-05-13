@@ -244,7 +244,6 @@ Transform:
   - {fileID: 62573251}
   - {fileID: 153938407}
   - {fileID: 1576372005}
-  - {fileID: 1388649330}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &153938406
@@ -401,6 +400,8 @@ Transform:
   - {fileID: 643315403}
   - {fileID: 1685118630}
   - {fileID: 748914628}
+  - {fileID: 738426710}
+  - {fileID: 592928568}
   m_Father: {fileID: 1929082171}
   m_RootOrder: 3
 --- !u!1 &380965428
@@ -426,8 +427,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380965428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.06, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.85, y: 0.02, z: 0}
+  m_LocalScale: {x: 1.3200489, y: 1.3460238, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 1
@@ -498,7 +499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22403282, guid: 4ed45a4cee7978a4185328a2840df6d0, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22403282, guid: 4ed45a4cee7978a4185328a2840df6d0, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -669,11 +670,6 @@ GameObject:
   - 114: {fileID: 443532387}
   - 114: {fileID: 443532386}
   - 114: {fileID: 443532385}
-  - 114: {fileID: 443532384}
-  - 114: {fileID: 443532383}
-  - 114: {fileID: 443532382}
-  - 114: {fileID: 443532381}
-  - 114: {fileID: 443532380}
   - 114: {fileID: 443532378}
   - 114: {fileID: 443532370}
   - 114: {fileID: 443532369}
@@ -696,7 +692,6 @@ GameObject:
   - 114: {fileID: 443532352}
   - 114: {fileID: 443532351}
   - 114: {fileID: 443532350}
-  - 114: {fileID: 443532349}
   - 114: {fileID: 443532335}
   - 114: {fileID: 443532423}
   - 114: {fileID: 443532425}
@@ -717,8 +712,6 @@ GameObject:
   - 114: {fileID: 443532371}
   - 114: {fileID: 443532336}
   - 114: {fileID: 443532344}
-  - 114: {fileID: 443532343}
-  - 114: {fileID: 443532342}
   - 114: {fileID: 443532341}
   - 114: {fileID: 443532340}
   - 114: {fileID: 443532339}
@@ -726,6 +719,18 @@ GameObject:
   - 114: {fileID: 443532346}
   - 114: {fileID: 443532345}
   - 114: {fileID: 443532347}
+  - 114: {fileID: 443532380}
+  - 114: {fileID: 443532348}
+  - 114: {fileID: 443532383}
+  - 114: {fileID: 443532382}
+  - 114: {fileID: 443532381}
+  - 114: {fileID: 443532343}
+  - 114: {fileID: 443532342}
+  - 114: {fileID: 443532431}
+  - 114: {fileID: 443532430}
+  - 114: {fileID: 443532395}
+  - 114: {fileID: 443532384}
+  - 114: {fileID: 443532349}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -751,7 +756,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 25031bec20def69459e3ffa6fee7c8e9, type: 3}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -777,8 +782,8 @@ MonoBehaviour:
   itemId: 113
   errorMessage: 
   indentLevel: 0
-  storyText: "Are you talking to a doll!? Oh man, and I thought you were just a dummy.
-    You\u2019re crazy too?"
+  storyText: Man, just what are you doing mumbling to yourself here anyways? Too stupid
+    to get to the lunch hall?
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -904,7 +909,7 @@ MonoBehaviour:
   itemId: 117
   errorMessage: 
   indentLevel: 0
-  storyText: "You\u2019re too old for dolls in school anyways! I\u2019m taking this!"
+  storyText: Captain Terror? You mean that fairy-tale for widdle baby monsters?
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -926,10 +931,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 116
+  itemId: 131
   errorMessage: 
   indentLevel: 0
-  storyText: "Well\u2026 Uh\u2026 Err\u2026"
+  storyText: "Wait, you can\u2019t even open a locker properly? Just how stupid are
+    you?"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -951,14 +957,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 115
+  itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "So don\u2019t laugh at me! Mistakes are natural, so there\u2019s nothing
-    to laugh about!"
+  storyText: "I was just trying to get my locker open, and\u2013"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -980,12 +985,11 @@ MonoBehaviour:
   itemId: 114
   errorMessage: 
   indentLevel: 0
-  storyText: "Every monster makes mistakes; even me and even you. The important part
-    is to stay positive, figure out what you did wrong, and then learn from that mistake
-    to be scarier than ever! That\u2019s what Captain Terror would say!"
+  storyText: "He\u2019s not a fairy-tale! Captain Terror\u2019s the greatest monster
+    of them all!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1011,7 +1015,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 645897866}
-  portrait: {fileID: 21300000, guid: f9a32865cfe73af448e3aebffcccad9f, type: 3}
+  portrait: {fileID: 21300000, guid: 4b343776e21cb574ba9f6669908c142c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1041,7 +1045,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 748914629}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1a02142685e6c474eb571e34fa0def4d, type: 3}
+  portrait: {fileID: 21300000, guid: cf0a63d4f235a424b8c3b1c09246ffc2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -1071,6 +1075,22 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &443532348
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  errorMessage: 
+  indentLevel: 0
+  sceneName: transition3_to_cafeteria
+  loadingImage: {fileID: 0}
 --- !u!114 &443532349
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1082,10 +1102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 81
+  itemId: 136
   errorMessage: 
   indentLevel: 0
-  storyText: Huh?
+  storyText: "Forget bedtime stories, you\u2019re too old for dolls in school, Dummy!
+    I\u2019m taking this!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -1608,11 +1629,11 @@ MonoBehaviour:
   itemId: 108
   errorMessage: 
   indentLevel: 0
-  storyText: "\u201CDid Dracula give up on Jonathan because he couldn\u2019t turn
+  storyText: "\u201CDid Dracula give up on Jonathan because he couldn\u2019t bite
     him on the first night?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1730,15 +1751,108 @@ MonoBehaviour:
   m_GameObject: {fileID: 443532334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 125
   errorMessage: 
   indentLevel: 0
-  sceneName: scene3_cafeteria
-  loadingImage: {fileID: 0}
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &443532381
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &443532382
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &443532383
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &443532384
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -1749,12 +1863,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 135
   errorMessage: 
   indentLevel: 0
-  storyText: Creative transition to Scene 3...
+  storyText: "Hey, that\u2019s my bag!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1685118631}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1763,62 +1877,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &443532382
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 443532334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &443532383
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 443532334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &443532384
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 443532334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  errorMessage: 
-  indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &443532385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2007,10 +2065,11 @@ MonoBehaviour:
   itemId: 33
   errorMessage: 
   indentLevel: 0
-  storyText: "There\u2019s nothing wrong with messing up sometimes!"
+  storyText: "It doesn\u2019t matter if I mess up! Captain Terror would never laugh
+    at a monster for messing up a scare!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2048,6 +2107,32 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &443532395
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Well if Captain Terror\u2019s so real, then he\u2019ll stop me from
+    doing this! Let me see that!"
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &443532396
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2091,22 +2176,22 @@ MonoBehaviour:
   - {fileID: 443532394}
   - {fileID: 443532425}
   - {fileID: 443532393}
-  - {fileID: 443532349}
-  - {fileID: 443532344}
-  - {fileID: 443532343}
-  - {fileID: 443532342}
   - {fileID: 443532341}
+  - {fileID: 443532344}
+  - {fileID: 443532431}
+  - {fileID: 443532430}
+  - {fileID: 443532395}
+  - {fileID: 443532384}
+  - {fileID: 443532349}
   - {fileID: 443532345}
+  - {fileID: 443532381}
   - {fileID: 443532340}
   - {fileID: 443532339}
-  - {fileID: 443532338}
   - {fileID: 443532392}
+  - {fileID: 443532338}
   - {fileID: 443532424}
-  - {fileID: 443532384}
-  - {fileID: 443532383}
-  - {fileID: 443532382}
-  - {fileID: 443532381}
   - {fileID: 443532380}
+  - {fileID: 443532348}
 --- !u!114 &443532398
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2499,7 +2584,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 08e04c81cdecb6e4c832d02c409c8716, type: 3}
+  portrait: {fileID: 21300000, guid: cda05691a71ce354db5d9d724018a93c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2551,10 +2636,11 @@ MonoBehaviour:
   itemId: 4
   errorMessage: 
   indentLevel: 0
-  storyText: "Meta needs help against this bully to stay confident! Find things from
-    the locker to support Meta and put them in Meta\u2019s backpack."
+  storyText: "This bully jus won't let up! Meta needs help to calm down and forget
+    about how mean that bully\u2019s being. Find things from the locker to support
+    Meta and put them in Meta\u2019s backpack."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 738426711}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2577,10 +2663,10 @@ MonoBehaviour:
   itemId: 3
   errorMessage: 
   indentLevel: 0
-  storyText: "Um\u2026 I was just\u2013"
+  storyText: "Um\u2026 That\u2019s not a very nice way to talk to someone\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2614,7 +2700,7 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: What the heck are you doing?
+  storyText: "Oh hey, it\u2019s the dummy from before!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -2664,12 +2750,16 @@ MonoBehaviour:
   - {fileID: 443532375}
   - {fileID: 443532374}
   - {fileID: 443532373}
+  - {fileID: 443532383}
   - {fileID: 443532372}
   - {fileID: 443532371}
   - {fileID: 443532414}
   - {fileID: 443532419}
+  - {fileID: 443532382}
   - {fileID: 443532417}
   - {fileID: 443532336}
+  - {fileID: 443532343}
+  - {fileID: 443532342}
   - {fileID: 443532413}
   - {fileID: 443532423}
   - {fileID: 443532416}
@@ -2709,9 +2799,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 443532397}
+  selectedBlock: {fileID: 443532420}
   selectedCommands:
-  - {fileID: 443532380}
+  - {fileID: 443532375}
   variables:
   - {fileID: 443532403}
   description: 
@@ -2811,7 +2901,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2920,6 +3010,58 @@ MonoBehaviour:
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &443532430
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  errorMessage: 
+  indentLevel: 0
+  storyText: "I\u2019m not kidding, and I\u2019m not crazy! Captain Terror\u2019s
+    real, and he helps anyone who needs him!"
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &443532431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Stupid\u2019s the wrong word; you\u2019re just crazy! You\u2019ve gotta
+    be kidding me!"
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3093,6 +3235,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!1001 &592928567
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.8351285
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.06354585
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &592928568 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_PrefabInternal: {fileID: 592928567}
+--- !u!114 &592928569 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11458930, guid: ad78c63d7a607c7459d78f835398a629,
+    type: 2}
+  m_PrefabInternal: {fileID: 592928567}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &620917699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,8 +3340,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 620917699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.83, y: -0.01, z: 0}
+  m_LocalScale: {x: 1.3271748, y: 1.3428568, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -3254,6 +3448,58 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11430208, guid: ab6e8078edef3624fa6643fd397b34c2,
     type: 2}
   m_PrefabInternal: {fileID: 645897864}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+--- !u!1001 &738426709
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &738426710 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_PrefabInternal: {fileID: 738426709}
+--- !u!114 &738426711 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11442454, guid: f4eb81599cc437a4cb2b85ab00e6487a,
+    type: 2}
+  m_PrefabInternal: {fileID: 738426709}
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1001 &748914627
 Prefab:
@@ -3544,11 +3790,6 @@ GameObject:
   - 114: {fileID: 1184021775}
   - 114: {fileID: 1184021774}
   - 114: {fileID: 1184021773}
-  - 114: {fileID: 1184021772}
-  - 114: {fileID: 1184021771}
-  - 114: {fileID: 1184021770}
-  - 114: {fileID: 1184021769}
-  - 114: {fileID: 1184021768}
   - 114: {fileID: 1184021767}
   - 114: {fileID: 1184021766}
   - 114: {fileID: 1184021765}
@@ -3571,7 +3812,6 @@ GameObject:
   - 114: {fileID: 1184021748}
   - 114: {fileID: 1184021747}
   - 114: {fileID: 1184021746}
-  - 114: {fileID: 1184021745}
   - 114: {fileID: 1184021741}
   - 114: {fileID: 1184021740}
   - 114: {fileID: 1184021739}
@@ -3588,8 +3828,6 @@ GameObject:
   - 114: {fileID: 1184021728}
   - 114: {fileID: 1184021727}
   - 114: {fileID: 1184021726}
-  - 114: {fileID: 1184021725}
-  - 114: {fileID: 1184021724}
   - 114: {fileID: 1184021723}
   - 114: {fileID: 1184021722}
   - 114: {fileID: 1184021721}
@@ -3598,6 +3836,15 @@ GameObject:
   - 114: {fileID: 1184021742}
   - 114: {fileID: 1184021801}
   - 114: {fileID: 1184021808}
+  - 114: {fileID: 1184021768}
+  - 114: {fileID: 1184021744}
+  - 114: {fileID: 1184021725}
+  - 114: {fileID: 1184021724}
+  - 114: {fileID: 1184021772}
+  - 114: {fileID: 1184021771}
+  - 114: {fileID: 1184021770}
+  - 114: {fileID: 1184021769}
+  - 114: {fileID: 1184021745}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -3633,7 +3880,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "I don\u2019t get it\u2026 Why do some monsters have to be so mean?"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3706,7 +3953,8 @@ MonoBehaviour:
   itemId: 117
   errorMessage: 
   indentLevel: 0
-  storyText: "You\u2019re too old for dolls in school anyways! I\u2019m taking this!"
+  storyText: "Forget bedtime stories, you\u2019re too old for dolls in school, Dummy!
+    I\u2019m taking this!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -3728,10 +3976,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 116
+  itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "Well\u2026 Uh\u2026 Err\u2026"
+  storyText: "Wait, you can\u2019t even open a locker properly? Just how stupid are
+    you?"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -3753,11 +4002,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 115
+  itemId: 128
   errorMessage: 
   indentLevel: 0
-  storyText: "So don\u2019t laugh at me! Mistakes are natural, so there\u2019s nothing
-    to laugh about!"
+  storyText: "I was just trying to get my locker open, and\u2013"
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -3782,9 +4030,8 @@ MonoBehaviour:
   itemId: 114
   errorMessage: 
   indentLevel: 0
-  storyText: "Every monster makes mistakes; even me and even you. The important part
-    is to stay positive, figure out what you did wrong, and then learn from that mistake
-    to be scarier than ever! That\u2019s what Captain Terror would say!"
+  storyText: "He\u2019s not a fairy-tale! Captain Terror\u2019s the greatest monster
+    of them all!"
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -3809,8 +4056,8 @@ MonoBehaviour:
   itemId: 113
   errorMessage: 
   indentLevel: 0
-  storyText: "Are you talking to a doll!? Oh man, and I thought you were just a dummy.
-    You\u2019re crazy too?"
+  storyText: Man, just what are you doing mumbling to yourself here anyways? Too stupid
+    to get to the lunch hall?
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -3937,11 +4184,11 @@ MonoBehaviour:
   itemId: 108
   errorMessage: 
   indentLevel: 0
-  storyText: "\u201CDid Dracula give up on Jonathan because he couldn\u2019t turn
+  storyText: "\u201CDid Dracula give up on Jonathan because he couldn\u2019t bite
     him on the first night?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4095,7 +4342,7 @@ MonoBehaviour:
     shelf, and I can hang my jacket over here. And now just lean this stuff against
     the side, and done!"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4121,7 +4368,7 @@ MonoBehaviour:
   storyText: "Wait, that didn\u2019t work. Okay, left to here, then right over there,
     and then left all the way over here\u2026 It opened!"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4147,7 +4394,7 @@ MonoBehaviour:
   storyText: "My locker, huh? I\u2019ve never had one of them before. Um, so you\u2019re
     supposed to turn the lock right, then left, then right\u2026"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4173,7 +4420,7 @@ MonoBehaviour:
   storyText: "Let\u2019s see now, the number was 236. 233, 234, 235\u2026 There it
     is!"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4200,7 +4447,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 925937f7bd2c5ab458adeda5cca2722f, type: 3}
+  portrait: {fileID: 21300000, guid: 870e83b4ee4b8df40ac41367f7951780, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4230,7 +4477,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 748914629}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f5996c4e08b40d3489674f2a42fce926, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -4242,6 +4489,22 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &1184021744
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  errorMessage: 
+  indentLevel: 0
+  sceneName: transition3_to_cafeteria
+  loadingImage: {fileID: 0}
 --- !u!114 &1184021745
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4253,13 +4516,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 81
+  itemId: 135
   errorMessage: 
   indentLevel: 0
-  storyText: Huh?
+  storyText: "Hey, that\u2019s my bag!"
   description: 
-  character: {fileID: 645897866}
-  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  character: {fileID: 643315404}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4679,7 +4942,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "That was terrible\u2026 Why did that bully have to be so mean to me?"
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4696,14 +4959,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 126
   errorMessage: 
   indentLevel: 0
-  sceneName: scene3_cafeteria
-  loadingImage: {fileID: 0}
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1184021769
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4715,13 +4981,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 134
   errorMessage: 
   indentLevel: 0
-  storyText: Creative transition to Scene 3...
+  storyText: "Well if Captain Terror\u2019s so real, then he\u2019ll stop me from
+    doing this! Let me see that!"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4737,16 +5004,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 51
+  itemId: 133
   errorMessage: 
   indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  storyText: "Stupid\u2019s the wrong word; you\u2019re just crazy! You\u2019ve gotta
+    be kidding me!"
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021771
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4755,17 +5030,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 50
+  itemId: 132
   errorMessage: 
   indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: "I\u2019m not kidding, and I\u2019m not crazy! Captain Terror\u2019s
+    real, and he helps anyone who needs him!"
+  description: 
+  character: {fileID: 643315404}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021772
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4774,17 +5056,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
+  itemId: 131
   errorMessage: 
   indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: Captain Terror? You mean that fairy-tale for widdle baby monsters?
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4973,7 +5261,8 @@ MonoBehaviour:
   itemId: 33
   errorMessage: 
   indentLevel: 0
-  storyText: "There\u2019s nothing wrong with messing up sometimes!"
+  storyText: "It doesn\u2019t matter if I mess up! Captain Terror would never laugh
+    at a monster for messing up a scare!"
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -5056,21 +5345,20 @@ MonoBehaviour:
   - {fileID: 1184021783}
   - {fileID: 1184021782}
   - {fileID: 1184021781}
-  - {fileID: 1184021745}
+  - {fileID: 1184021772}
   - {fileID: 1184021726}
-  - {fileID: 1184021725}
-  - {fileID: 1184021724}
+  - {fileID: 1184021770}
+  - {fileID: 1184021771}
+  - {fileID: 1184021769}
+  - {fileID: 1184021745}
   - {fileID: 1184021723}
   - {fileID: 1184021801}
   - {fileID: 1184021722}
   - {fileID: 1184021721}
-  - {fileID: 1184021720}
   - {fileID: 1184021780}
-  - {fileID: 1184021772}
-  - {fileID: 1184021771}
-  - {fileID: 1184021770}
-  - {fileID: 1184021769}
+  - {fileID: 1184021720}
   - {fileID: 1184021768}
+  - {fileID: 1184021744}
 --- !u!114 &1184021785
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5462,7 +5750,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 645897866}
-  portrait: {fileID: 21300000, guid: 8d205db9f00dcca4c92b59d535ffc0d1, type: 3}
+  portrait: {fileID: 21300000, guid: 205ae162439ff594082c4a57f0bbe147, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5488,10 +5776,11 @@ MonoBehaviour:
   itemId: 4
   errorMessage: 
   indentLevel: 0
-  storyText: I need something to help me calm down and deal with this bully! Maybe
-    I can put some things from my locker into my backpack.
+  storyText: "This bully just won\u2019t let up! I need to find three things to help
+    me calm down and forget about how mean he\u2019s being. Maybe I can put some things
+    from my locker into my backpack."
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 592928569}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5514,7 +5803,7 @@ MonoBehaviour:
   itemId: 3
   errorMessage: 
   indentLevel: 0
-  storyText: "Um\u2026 I was just\u2013"
+  storyText: "Um\u2026 That\u2019s not a very nice way to talk to someone\u2026"
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -5551,7 +5840,7 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: What the heck are you doing?
+  storyText: "Oh hey, it\u2019s the dummy from before!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -5606,6 +5895,8 @@ MonoBehaviour:
   - {fileID: 1184021805}
   - {fileID: 1184021803}
   - {fileID: 1184021727}
+  - {fileID: 1184021725}
+  - {fileID: 1184021724}
   - {fileID: 1184021800}
   - {fileID: 1184021802}
   - {fileID: 1184021766}
@@ -5644,8 +5935,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 1184021784}
-  selectedCommands: []
+  selectedBlock: {fileID: 1184021806}
+  selectedCommands:
+  - {fileID: 1184021732}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -5657,7 +5949,7 @@ MonoBehaviour:
   hideCommands: []
 --- !u!114 &1184021808
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1184021718}
@@ -5673,60 +5965,6 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!1001 &1388649329
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 119849623}
-    m_Modifications:
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1388649330 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
---- !u!1 &1388649331 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
 --- !u!1 &1402402711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5879,7 +6117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 443532421}
+  selectedFlowchart: {fileID: 1184021807}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1

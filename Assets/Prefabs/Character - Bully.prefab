@@ -39,18 +39,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Jerry K.
+  nameText: Jerry K. says...
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
   portraits:
   - {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
-  - {fileID: 21300000, guid: 925937f7bd2c5ab458adeda5cca2722f, type: 3}
-  - {fileID: 21300000, guid: 08e04c81cdecb6e4c832d02c409c8716, type: 3}
-  - {fileID: 21300000, guid: 8d205db9f00dcca4c92b59d535ffc0d1, type: 3}
-  - {fileID: 21300000, guid: f9a32865cfe73af448e3aebffcccad9f, type: 3}
-  - {fileID: 21300000, guid: e722270c0bce3474a9451ba9536d5a5b, type: 3}
-  - {fileID: 21300000, guid: 963c85241bc551f4f8c371be5cb0b2ad, type: 3}
+  - {fileID: 21300000, guid: 870e83b4ee4b8df40ac41367f7951780, type: 3}
+  - {fileID: 21300000, guid: cda05691a71ce354db5d9d724018a93c, type: 3}
+  - {fileID: 21300000, guid: 205ae162439ff594082c4a57f0bbe147, type: 3}
+  - {fileID: 21300000, guid: 4b343776e21cb574ba9f6669908c142c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

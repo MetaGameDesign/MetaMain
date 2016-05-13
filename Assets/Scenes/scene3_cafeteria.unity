@@ -246,7 +246,6 @@ Transform:
   - {fileID: 1576372005}
   - {fileID: 172972125}
   - {fileID: 1194055189}
-  - {fileID: 1388649330}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &153938406
@@ -397,8 +396,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172972124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.81, y: -0.04, z: 0}
+  m_LocalScale: {x: 1.3224242, y: 1.3301884, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 9
@@ -432,6 +431,58 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &354758537
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &354758538 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_PrefabInternal: {fileID: 354758537}
+--- !u!114 &354758539 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11458930, guid: ad78c63d7a607c7459d78f835398a629,
+    type: 2}
+  m_PrefabInternal: {fileID: 354758537}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &364468536
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +514,8 @@ Transform:
   - {fileID: 1905803198}
   - {fileID: 423000121}
   - {fileID: 1286304989}
+  - {fileID: 1922690529}
+  - {fileID: 354758538}
   m_Father: {fileID: 1929082171}
   m_RootOrder: 3
 --- !u!1 &380965428
@@ -488,8 +541,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380965428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.06, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.81, y: -0.05, z: 0}
+  m_LocalScale: {x: 1.3271748, y: 1.3270215, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -783,8 +836,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 573278289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.84, y: 3.87, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 2.73, y: 3.8, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 5
@@ -879,8 +932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc68161cefe5344bb5b7dbeaed89336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleIncrease: 2
-  originalScale: 1.5
+  scaleIncrease: 4
+  originalScale: 3
 --- !u!1 &590144361
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +1021,12 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 456358, guid: 0b058bc40434f7b46a5e40d350e4935f, type: 2}
   m_PrefabInternal: {fileID: 643315402}
+--- !u!114 &643315404 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11469606, guid: 0b058bc40434f7b46a5e40d350e4935f,
+    type: 2}
+  m_PrefabInternal: {fileID: 643315402}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1001 &645897864
 Prefab:
   m_ObjectHideFlags: 0
@@ -1127,11 +1186,6 @@ GameObject:
   - 114: {fileID: 920657605}
   - 114: {fileID: 920657604}
   - 114: {fileID: 920657603}
-  - 114: {fileID: 920657602}
-  - 114: {fileID: 920657601}
-  - 114: {fileID: 920657600}
-  - 114: {fileID: 920657599}
-  - 114: {fileID: 920657598}
   - 114: {fileID: 920657597}
   - 114: {fileID: 920657596}
   - 114: {fileID: 920657595}
@@ -1173,6 +1227,9 @@ GameObject:
   - 114: {fileID: 920657566}
   - 114: {fileID: 920657629}
   - 114: {fileID: 920657574}
+  - 114: {fileID: 920657599}
+  - 114: {fileID: 920657598}
+  - 114: {fileID: 920657600}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -1197,7 +1254,7 @@ MonoBehaviour:
   storyText: "Meta\u2019s had a rough start, but the lunch special is Poo-ding! Maybe
     Meta can bond with some monsters over their favorite meal."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1922690530}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1325,10 +1382,10 @@ MonoBehaviour:
   itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "They\u2019ll need an ice cream cone, sauce, and sprinkles. When the
-    items have been collected, drag the items to Meta\u2019s lunchbox."
+  storyText: "Disguise it! See if there\u2019s anything here to make the poo-ding
+    look much cooler. Collect some items in Meta's lunchbox."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1922690530}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1403,7 +1460,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f109da9554b38e74fb580ce5a1c186d4, type: 3}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -1447,10 +1504,10 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh no! They don\u2019t seem to like Poo-ding very much. Help Meta disguise
-    their lunch."
+  storyText: "Oh great \u2013 they hate Meta\u2019s favoriate meal too! They\u2019ll
+    probably make fun of Meta again."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1922690530}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1991,7 +2048,7 @@ MonoBehaviour:
   storyText: "Meta walks into the cafeteria and sees a sign that reads: \u201CToday\u2019s
     Special: Poo-ding\u201D."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1922690530}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2011,12 +2068,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 145
   errorMessage: 
   indentLevel: 0
-  sceneName: scene4_scareleading
+  sceneName: transition4_to_scareleading
   loadingImage: {fileID: 0}
 --- !u!114 &920657599
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &920657600
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -2027,13 +2103,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 146
   errorMessage: 
   indentLevel: 0
-  storyText: Creative transition to Scene 4...
+  storyText: '...sigh...'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2041,62 +2117,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &920657600
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 920657557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &920657601
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 920657557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &920657602
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 920657557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  errorMessage: 
-  indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &920657603
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2289,7 +2309,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 963c85241bc551f4f8c371be5cb0b2ad, type: 3}
+  portrait: {fileID: 21300000, guid: cda05691a71ce354db5d9d724018a93c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -2352,11 +2372,9 @@ MonoBehaviour:
   - {fileID: 920657611}
   - {fileID: 920657568}
   - {fileID: 920657575}
+  - {fileID: 920657600}
   - {fileID: 920657610}
   - {fileID: 920657567}
-  - {fileID: 920657602}
-  - {fileID: 920657601}
-  - {fileID: 920657600}
   - {fileID: 920657599}
   - {fileID: 920657598}
 --- !u!114 &920657614
@@ -2799,7 +2817,8 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 920657631}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 920657565}
   variables:
   - {fileID: 920657619}
   description: 
@@ -2983,11 +3002,6 @@ GameObject:
   - 114: {fileID: 1184021775}
   - 114: {fileID: 1184021774}
   - 114: {fileID: 1184021773}
-  - 114: {fileID: 1184021772}
-  - 114: {fileID: 1184021771}
-  - 114: {fileID: 1184021770}
-  - 114: {fileID: 1184021769}
-  - 114: {fileID: 1184021768}
   - 114: {fileID: 1184021767}
   - 114: {fileID: 1184021766}
   - 114: {fileID: 1184021765}
@@ -3027,6 +3041,9 @@ GameObject:
   - 114: {fileID: 1184021727}
   - 114: {fileID: 1184021731}
   - 114: {fileID: 1184021729}
+  - 114: {fileID: 1184021733}
+  - 114: {fileID: 1184021732}
+  - 114: {fileID: 1184021734}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -3165,10 +3182,10 @@ MonoBehaviour:
   itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "You\u2019ll need an ice cream cone, chocolate sauce, and sprinkles.
-    Drag the items to your lunchbox when you\u2019ve found them."
+  storyText: "I know, I\u2019ll disguise it! I wonder if there\u2019s anything here
+    to make the poo-ding look much cooler. I\u2019ll collect some items in my lunchbox."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 354758539}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3245,10 +3262,10 @@ MonoBehaviour:
   itemId: 137
   errorMessage: 
   indentLevel: 0
-  storyText: "You walk into the cafeteria and see a sign that reads: \u201CToday\u2019s
+  storyText: "I walk into the cafeteria and see a sign that reads: \u201CToday\u2019s
     Special: Poo-ding\u201D."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 354758539}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3275,6 +3292,66 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &1184021732
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  errorMessage: 
+  indentLevel: 0
+  sceneName: transition4_to_scareleading
+  loadingImage: {fileID: 0}
+--- !u!114 &1184021733
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1184021734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  errorMessage: 
+  indentLevel: 0
+  storyText: '...sigh...'
+  description: 
+  character: {fileID: 643315404}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021738
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3289,10 +3366,10 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh no! They don\u2019t seem to like Poo-ding very much. Maybe you can
-    disguise it!"
+  storyText: "Oh great \u2013 they hate my favorite meal too! They\u2019ll probably
+    make fun of me again."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 354758539}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3812,10 +3889,10 @@ MonoBehaviour:
   itemId: 55
   errorMessage: 
   indentLevel: 0
-  storyText: "You\u2019ve had a rough start, but the lunch special is Poo-ding! Maybe
-    you can bond with some monsters over your favorite meal."
+  storyText: "I\u2019ve had a rough start, but the lunch special is Poo-ding! Maybe
+    I can bond with some monsters over my favorite meal."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 354758539}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3824,103 +3901,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &1184021768
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 53
-  errorMessage: 
-  indentLevel: 0
-  sceneName: scene4_scareleading
-  loadingImage: {fileID: 0}
---- !u!114 &1184021769
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  errorMessage: 
-  indentLevel: 0
-  storyText: Creative transition to Scene 4...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
---- !u!114 &1184021770
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &1184021771
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
---- !u!114 &1184021772
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  errorMessage: 
-  indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &1184021773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4113,7 +4093,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 645897866}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e722270c0bce3474a9451ba9536d5a5b, type: 3}
+  portrait: {fileID: 21300000, guid: 870e83b4ee4b8df40ac41367f7951780, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -4175,12 +4155,10 @@ MonoBehaviour:
   - {fileID: 1184021729}
   - {fileID: 1184021782}
   - {fileID: 1184021745}
+  - {fileID: 1184021734}
   - {fileID: 1184021780}
-  - {fileID: 1184021772}
-  - {fileID: 1184021771}
-  - {fileID: 1184021770}
-  - {fileID: 1184021769}
-  - {fileID: 1184021768}
+  - {fileID: 1184021733}
+  - {fileID: 1184021732}
 --- !u!114 &1184021785
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4602,7 +4580,7 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 1184021784}
+  selectedBlock: {fileID: 1184021806}
   selectedCommands: []
   variables:
   - {fileID: 1184021790}
@@ -4636,8 +4614,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1194055188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.81, y: 0.04, z: 0}
+  m_LocalScale: {x: 1.322424, y: 1.3460238, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 10
@@ -4759,60 +4737,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 752342083f02260458dc4c2e9f175d83, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1388649329
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 119849623}
-    m_Modifications:
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1388649330 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
---- !u!1 &1388649331 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
 --- !u!1 &1402402711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +4931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 920657632}
+  selectedFlowchart: {fileID: 1184021807}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1
@@ -5356,6 +5280,58 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 490756, guid: 4d991fc2c38d6f64bbd25f000700d5ff, type: 2}
   m_PrefabInternal: {fileID: 1407478919}
+--- !u!1001 &1922690528
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1922690529 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_PrefabInternal: {fileID: 1922690528}
+--- !u!114 &1922690530 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11442454, guid: f4eb81599cc437a4cb2b85ab00e6487a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1922690528}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &1929082170
 GameObject:
   m_ObjectHideFlags: 0

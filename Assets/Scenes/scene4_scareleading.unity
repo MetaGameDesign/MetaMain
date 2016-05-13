@@ -254,9 +254,6 @@ Transform:
   - {fileID: 153938407}
   - {fileID: 1576372005}
   - {fileID: 502457140}
-  - {fileID: 172972125}
-  - {fileID: 1194055189}
-  - {fileID: 1388649330}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &153938406
@@ -384,64 +381,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleIncrease: 2
   originalScale: 1.3
---- !u!1 &172972124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 172972125}
-  - 212: {fileID: 172972126}
-  m_Layer: 0
-  m_Name: Background - Cafeteria with Bullies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &172972125
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172972124}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
-  m_Children: []
-  m_Father: {fileID: 119849623}
-  m_RootOrder: 19
---- !u!212 &172972126
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172972124}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 50d20a7502ada7547aace8b8c1b6f877, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1 &244742958
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +407,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 244742958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.58, y: 1.33, z: 0}
+  m_LocalPosition: {x: -1.74, y: 1.24, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
@@ -546,6 +485,58 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &321116487
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &321116488 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 445658, guid: ad78c63d7a607c7459d78f835398a629, type: 2}
+  m_PrefabInternal: {fileID: 321116487}
+--- !u!114 &321116489 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11458930, guid: ad78c63d7a607c7459d78f835398a629,
+    type: 2}
+  m_PrefabInternal: {fileID: 321116487}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &364468536
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +566,8 @@ Transform:
   - {fileID: 1685118630}
   - {fileID: 406898300}
   - {fileID: 423000121}
+  - {fileID: 1003884390}
+  - {fileID: 321116488}
   m_Father: {fileID: 1929082171}
   m_RootOrder: 3
 --- !u!1 &380965428
@@ -600,8 +593,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380965428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.06, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.78, y: -0.06, z: 0}
+  m_LocalScale: {x: 1.3186215, y: 1.3242004, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -1023,11 +1016,6 @@ GameObject:
   - 114: {fileID: 537212790}
   - 114: {fileID: 537212789}
   - 114: {fileID: 537212788}
-  - 114: {fileID: 537212787}
-  - 114: {fileID: 537212786}
-  - 114: {fileID: 537212785}
-  - 114: {fileID: 537212784}
-  - 114: {fileID: 537212783}
   - 114: {fileID: 537212782}
   - 114: {fileID: 537212781}
   - 114: {fileID: 537212780}
@@ -1071,7 +1059,6 @@ GameObject:
   - 114: {fileID: 537212742}
   - 114: {fileID: 537212741}
   - 114: {fileID: 537212740}
-  - 114: {fileID: 537212739}
   - 114: {fileID: 537212738}
   - 114: {fileID: 537212737}
   - 114: {fileID: 537212736}
@@ -1150,13 +1137,8 @@ GameObject:
   - 114: {fileID: 537212663}
   - 114: {fileID: 537212662}
   - 114: {fileID: 537212661}
-  - 114: {fileID: 537212660}
   - 114: {fileID: 537212659}
   - 114: {fileID: 537212658}
-  - 114: {fileID: 537212657}
-  - 114: {fileID: 537212656}
-  - 114: {fileID: 537212655}
-  - 114: {fileID: 537212654}
   - 114: {fileID: 537212653}
   - 114: {fileID: 537212652}
   - 114: {fileID: 537212651}
@@ -1186,6 +1168,20 @@ GameObject:
   - 114: {fileID: 537212823}
   - 114: {fileID: 537212822}
   - 114: {fileID: 537212821}
+  - 114: {fileID: 537212739}
+  - 114: {fileID: 537212784}
+  - 114: {fileID: 537212783}
+  - 114: {fileID: 537212831}
+  - 114: {fileID: 537212830}
+  - 114: {fileID: 537212787}
+  - 114: {fileID: 537212833}
+  - 114: {fileID: 537212832}
+  - 114: {fileID: 537212785}
+  - 114: {fileID: 537212660}
+  - 114: {fileID: 537212657}
+  - 114: {fileID: 537212656}
+  - 114: {fileID: 537212655}
+  - 114: {fileID: 537212654}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -1195,7 +1191,7 @@ GameObject:
   m_IsActive: 0
 --- !u!114 &537212638
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -1211,7 +1207,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0d6c3525955a6634eb0f72160257f70d, type: 3}
+  portrait: {fileID: 21300000, guid: 1908b9f553b22834ba1ecd5a2542739e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -1237,8 +1233,7 @@ MonoBehaviour:
   itemId: 285
   errorMessage: 
   indentLevel: 0
-  storyText: "What you need to be a scareleader is an intimidating spirit and unrivaled
-    enthusiasm. You\u2019ve got those, Meta."
+  storyText: "No excuses, kid! We don\u2019t take cheaters on the team!"
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -1267,7 +1262,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 88549272be72d9f4698f43ab63a960e2, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -1532,7 +1527,8 @@ MonoBehaviour:
   itemId: 271
   errorMessage: 
   indentLevel: 0
-  storyText: Yeah.
+  storyText: "I just wanted to be scary like everyone else\u2026 But I guess I can\u2019t
+    even do that right! I\u2019m just a useless monster as worthless as my horns\u2026"
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -1554,13 +1550,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 270
+  itemId: 315
   errorMessage: 
   indentLevel: 0
-  storyText: Hey, you too kid. Just keep trying, alright?
+  storyText: Meta runs out of the gym, face red with embarrassment and eyes wet with
+    tears.
   description: 
-  character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  character: {fileID: 1003884391}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1576,23 +1573,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 269
+  itemId: 314
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh\u2026 Thanks anyways. Have a nice day."
-  description: 
-  character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &537212656
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1601,24 +1592,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 268
+  itemId: 313
   errorMessage: 
   indentLevel: 0
-  storyText: "Sorry kid, but nope. School regulations says we can\u2019t accept anyone
-    who unfairly represents themselves."
-  description: 
-  character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &537212657
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1627,23 +1611,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 267
+  itemId: 312
   errorMessage: 
   indentLevel: 0
-  storyText: "Then, does that mean\u2026?"
-  description: 
-  character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  targetGameObject: {fileID: 1532265140}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &537212658
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1658,7 +1635,7 @@ MonoBehaviour:
   itemId: 266
   errorMessage: 
   indentLevel: 0
-  storyText: You do.
+  storyText: GET OUT OF HERE!
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -1683,7 +1660,7 @@ MonoBehaviour:
   itemId: 265
   errorMessage: 
   indentLevel: 0
-  storyText: I do?
+  storyText: "But\u2013"
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -1702,23 +1679,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 264
+  itemId: 311
   errorMessage: 
   indentLevel: 0
-  storyText: Sorry.
-  description: 
-  character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  targetGameObject: {fileID: 2121165342}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &537212661
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1733,9 +1703,7 @@ MonoBehaviour:
   itemId: 263
   errorMessage: 
   indentLevel: 0
-  storyText: "Sigh\u2026 So it was something like that, huh? Listen, kid. Scareleading\u2019s
-    not about who\u2019s got the biggest horns, or the scaliest skin, or the spikiest
-    tail."
+  storyText: "What, so you cheated! How\u2019s that fair?"
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -1760,10 +1728,7 @@ MonoBehaviour:
   itemId: 262
   errorMessage: 
   indentLevel: 0
-  storyText: "Err\u2026 Well\u2026 You see\u2026 I wanted to try out for scareleading
-    because it looked fun, but everyone said that my horns weren\u2019t scary enough
-    for being a good scareleader, so I thought that I could make my horns scarier
-    to be a good scareleader, and\u2026"
+  storyText: "Err\u2026 Well\u2026 I wanted to look scarier, so\u2026"
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -1788,7 +1753,7 @@ MonoBehaviour:
   itemId: 260
   errorMessage: 
   indentLevel: 0
-  storyText: Wait a second, this is just wood! Explain, kid.
+  storyText: Wait a second, this is just cardboard! Explain, kid.
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -1931,10 +1896,11 @@ MonoBehaviour:
   itemId: 253
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019m doing pretty well! I can do this!"
+  storyText: "Meta leaps and tumbles, and Cari looks impressed!  At this rate, he\u2019ll
+    make it in for sure!"
   description: 
-  character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: d33875059b6ae8f46b53c27033b12ae7, type: 3}
+  character: {fileID: 321116489}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2785,9 +2751,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "It\u2019s time to help Meta pick what to decorate their horns with!
-    Put the right materials into Meta\u2019s bag."
+    Put three correct materials into Meta\u2019s backpack."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1003884391}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2810,8 +2776,8 @@ MonoBehaviour:
   itemId: 205
   errorMessage: 
   indentLevel: 0
-  storyText: "Alright, I bought a bunch of stuff from the store. But now to figure
-    out what to do with it\u2026"
+  storyText: "Alright, I found a lot of stuff. But now to figure out what to do with
+    it\u2026"
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -2873,12 +2839,11 @@ MonoBehaviour:
   itemId: 196
   errorMessage: 
   indentLevel: 0
-  storyText: "No. I will try out for scareleading! If my horns aren\u2019t scary enough,
-    then I\u2019ll just make them scarier! There\u2019s a store near the school with
-    some supplies that might help!"
+  storyText: Meta should try out for scareleading, no matter what the other monster
+    said!
   description: 
-  character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  character: {fileID: 1003884391}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3061,7 +3026,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 423000120}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4e755c9d51095d54e99869fd5d305b21, type: 3}
+  portrait: {fileID: 21300000, guid: 9017249f822e8c04495072f8701e75ff, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -3112,9 +3077,9 @@ MonoBehaviour:
   itemId: 187
   errorMessage: 
   indentLevel: 0
-  storyText: "Hey, what\u2019s that poster say? \u201CAre you the spookiest of the
-    spooky? Can you scare like no one\u2019s every scared before? If so, join the
-    Scareleading Team! Tryouts all week!\u201D That sounds like fun! "
+  storyText: "What\u2019s that poster? \u201CAre you the spookiest of the spooky?
+    Can you scare like no one\u2019s every scared before? If so, join the Scareleading
+    Team! Tryouts all week!\u201D That sounds like fun!"
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -3331,11 +3296,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 0}
-  clickableObject: {fileID: 1958031977}
+  itemId: 300
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 406898301}
+  replacedCharacter: {fileID: 406898301}
+  portrait: {fileID: 21300000, guid: 25bb0270e7787d34da4b0af4541b6a22, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &537212740
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3618,9 +3600,12 @@ MonoBehaviour:
   - {fileID: 537212723}
   - {fileID: 537212722}
   - {fileID: 537212721}
+  - {fileID: 537212831}
   - {fileID: 537212720}
   - {fileID: 537212719}
+  - {fileID: 537212830}
   - {fileID: 537212718}
+  - {fileID: 537212832}
   - {fileID: 537212819}
   - {fileID: 537212717}
   - {fileID: 537212652}
@@ -3855,8 +3840,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "School didn\u2019t go so well\u2026 I want to go home, but Mom said
-    I should try out for a club at least once. What kind of club do I want to join,
-    though?"
+    I should try out for a club."
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -3986,7 +3970,8 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: "Yo, new kid! You\u2019re just in time. We were about to close up shop."
+  storyText: "Yo, new kid! You\u2019re just in time. We were about to close up shop.
+    I\u2019m Cari Wheeler, the scareleading captain."
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -4211,12 +4196,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 302
   errorMessage: 
   indentLevel: 0
-  sceneName: scene5_party
+  sceneName: transition5_to_party
   loadingImage: {fileID: 0}
 --- !u!114 &537212784
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 301
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &537212785
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -4227,13 +4231,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 310
   errorMessage: 
   indentLevel: 0
-  storyText: Creative transition here.
+  storyText: "It\u2019s not like I meant to\u2013 I mean, I just wanted to look scarier
+    and\u2013"
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4241,43 +4246,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &537212785
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 537212637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &537212786
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 537212637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  errorMessage: 
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &537212787
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4286,17 +4254,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 537212637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
+  itemId: 305
   errorMessage: 
   indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &537212788
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4459,7 +4438,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 88549272be72d9f4698f43ab63a960e2, type: 3}
+  portrait: {fileID: 21300000, guid: 40e2c611d3064b04fbdd2894a438bee6, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -4554,23 +4533,23 @@ MonoBehaviour:
   - {fileID: 537212665}
   - {fileID: 537212822}
   - {fileID: 537212664}
+  - {fileID: 537212739}
   - {fileID: 537212663}
   - {fileID: 537212662}
-  - {fileID: 537212660}
   - {fileID: 537212661}
+  - {fileID: 537212787}
+  - {fileID: 537212785}
   - {fileID: 537212639}
   - {fileID: 537212659}
   - {fileID: 537212658}
-  - {fileID: 537212657}
-  - {fileID: 537212656}
-  - {fileID: 537212655}
-  - {fileID: 537212654}
-  - {fileID: 537212653}
   - {fileID: 537212643}
+  - {fileID: 537212654}
+  - {fileID: 537212656}
+  - {fileID: 537212660}
+  - {fileID: 537212657}
+  - {fileID: 537212655}
+  - {fileID: 537212653}
   - {fileID: 537212821}
-  - {fileID: 537212787}
-  - {fileID: 537212786}
-  - {fileID: 537212785}
   - {fileID: 537212784}
   - {fileID: 537212783}
 --- !u!114 &537212798
@@ -4951,6 +4930,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 537212638}
   - {fileID: 537212765}
+  - {fileID: 537212833}
   - {fileID: 537212817}
   - {fileID: 537212782}
   - {fileID: 537212763}
@@ -4977,7 +4957,7 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4300004
+  zoom: 0.4600004
   scrollViewRect:
     serializedVersion: 2
     x: -377.92914
@@ -4985,8 +4965,7 @@ MonoBehaviour:
     width: 2338.0732
     height: 1247.2526
   selectedBlock: {fileID: 537212797}
-  selectedCommands:
-  - {fileID: 537212783}
+  selectedCommands: []
   variables:
   - {fileID: 537212803}
   description: 
@@ -5010,7 +4989,7 @@ Transform:
   m_RootOrder: 2
 --- !u!114 &537212817
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5040,7 +5019,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212818
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5056,7 +5035,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0d6c3525955a6634eb0f72160257f70d, type: 3}
+  portrait: {fileID: 21300000, guid: 99a0f361232abf449a4257b41897b5fc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -5070,7 +5049,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212819
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5100,7 +5079,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212820
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5116,7 +5095,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f109da9554b38e74fb580ce5a1c186d4, type: 3}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -5130,7 +5109,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212821
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5160,7 +5139,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212822
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5176,7 +5155,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f109da9554b38e74fb580ce5a1c186d4, type: 3}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -5190,7 +5169,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212823
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5220,7 +5199,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212824
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5236,7 +5215,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 434cfcffefaaee945aa8f46019b5f1c5, type: 3}
+  portrait: {fileID: 21300000, guid: 99a0f361232abf449a4257b41897b5fc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -5250,7 +5229,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212825
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5280,7 +5259,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212826
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5296,7 +5275,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d3f42cef75f67ad448a52140c9289026, type: 3}
+  portrait: {fileID: 21300000, guid: a13ffbd3c1afeae489da8c672d2f6b2f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -5310,7 +5289,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212827
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5340,7 +5319,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212828
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5356,7 +5335,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 0d6c3525955a6634eb0f72160257f70d, type: 3}
+  portrait: {fileID: 21300000, guid: 99a0f361232abf449a4257b41897b5fc, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -5370,7 +5349,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &537212829
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537212637}
@@ -5398,6 +5377,117 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &537212830
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &537212831
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &537212832
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  errorMessage: 
+  indentLevel: 0
+  storyText: "There\u2019s gotta be a drama classroom or something with things to
+    make me scarier!"
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &537212833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 308
+  errorMessage: 
+  indentLevel: 0
+  storyText: What kind of club looks fun?
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!1 &573278289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5706,7 +5796,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 922230344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.08, y: -1.91, z: 0}
+  m_LocalPosition: {x: 1.08, y: -1.96, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
@@ -5816,7 +5906,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990211555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.84, y: 0.73, z: 0}
+  m_LocalPosition: {x: 0.77, y: 0.66, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
@@ -5894,6 +5984,58 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &1003884389
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 364468537}
+    m_Modifications:
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1003884390 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 464732, guid: f4eb81599cc437a4cb2b85ab00e6487a, type: 2}
+  m_PrefabInternal: {fileID: 1003884389}
+--- !u!114 &1003884391 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11442454, guid: f4eb81599cc437a4cb2b85ab00e6487a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1003884389}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1 &1025202138
 GameObject:
   m_ObjectHideFlags: 0
@@ -6055,11 +6197,6 @@ GameObject:
   - 114: {fileID: 1184021775}
   - 114: {fileID: 1184021774}
   - 114: {fileID: 1184021773}
-  - 114: {fileID: 1184021772}
-  - 114: {fileID: 1184021771}
-  - 114: {fileID: 1184021770}
-  - 114: {fileID: 1184021769}
-  - 114: {fileID: 1184021768}
   - 114: {fileID: 1184021761}
   - 114: {fileID: 1184021754}
   - 114: {fileID: 1184021753}
@@ -6103,7 +6240,6 @@ GameObject:
   - 114: {fileID: 1184021805}
   - 114: {fileID: 1184021803}
   - 114: {fileID: 1184021802}
-  - 114: {fileID: 1184021781}
   - 114: {fileID: 1184021817}
   - 114: {fileID: 1184021816}
   - 114: {fileID: 1184021815}
@@ -6182,14 +6318,8 @@ GameObject:
   - 114: {fileID: 1184021764}
   - 114: {fileID: 1184021762}
   - 114: {fileID: 1184021760}
-  - 114: {fileID: 1184021759}
   - 114: {fileID: 1184021758}
   - 114: {fileID: 1184021757}
-  - 114: {fileID: 1184021756}
-  - 114: {fileID: 1184021755}
-  - 114: {fileID: 1184021729}
-  - 114: {fileID: 1184021728}
-  - 114: {fileID: 1184021727}
   - 114: {fileID: 1184021893}
   - 114: {fileID: 1184021892}
   - 114: {fileID: 1184021891}
@@ -6204,6 +6334,19 @@ GameObject:
   - 114: {fileID: 1184021895}
   - 114: {fileID: 1184021894}
   - 114: {fileID: 1184021896}
+  - 114: {fileID: 1184021781}
+  - 114: {fileID: 1184021769}
+  - 114: {fileID: 1184021768}
+  - 114: {fileID: 1184021770}
+  - 114: {fileID: 1184021772}
+  - 114: {fileID: 1184021771}
+  - 114: {fileID: 1184021897}
+  - 114: {fileID: 1184021759}
+  - 114: {fileID: 1184021756}
+  - 114: {fileID: 1184021755}
+  - 114: {fileID: 1184021729}
+  - 114: {fileID: 1184021728}
+  - 114: {fileID: 1184021727}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -6357,12 +6500,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 271
+  itemId: 321
   errorMessage: 
   indentLevel: 0
-  storyText: Yeah.
+  storyText: "I just wanted to be scary like everyone else\u2026 But I guess I can\u2019t
+    even do that right! I\u2019m just a useless monster as worthless as my horns\u2026"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6379,23 +6523,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 270
+  itemId: 320
   errorMessage: 
   indentLevel: 0
-  storyText: Hey, you too kid. Just keep trying, alright?
-  description: 
-  character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1184021729
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6404,23 +6542,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 269
+  itemId: 319
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh\u2026 Thanks anyways. Have a nice day."
-  description: 
-  character: {fileID: 937218132}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  targetGameObject: {fileID: 1532265140}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1184021730
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6436,10 +6567,9 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "School didn\u2019t go so well\u2026 I want to go home, but Mom said
-    I should try out for a club at least once. What kind of club do I want to join,
-    though?"
+    I should try out for a club."
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6619,6 +6749,7 @@ MonoBehaviour:
   - {fileID: 1184021826}
   - {fileID: 1184021818}
   - {fileID: 1184021801}
+  - {fileID: 1184021770}
   - {fileID: 1184021800}
   - {fileID: 1184021893}
   - {fileID: 1184021892}
@@ -6756,7 +6887,8 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: "Yo, new kid! You\u2019re just in time. We were about to close up shop."
+  storyText: "Yo, new kid! You\u2019re just in time; we were about to close up shop.
+    I\u2019m Cari Wheeler, the scareleading captain!"
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -6961,24 +7093,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 268
+  itemId: 318
   errorMessage: 
   indentLevel: 0
-  storyText: "Sorry kid, but nope. School regulations says we can\u2019t accept anyone
-    who unfairly represents themselves."
-  description: 
-  character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  targetGameObject: {fileID: 2121165342}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1184021756
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6987,23 +7111,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 267
+  itemId: 317
   errorMessage: 
   indentLevel: 0
-  storyText: "Then, does that mean\u2026?"
-  description: 
-  character: {fileID: 937218132}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  setSayDialog: {fileID: 0}
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &1184021757
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7018,7 +7136,7 @@ MonoBehaviour:
   itemId: 266
   errorMessage: 
   indentLevel: 0
-  storyText: You do.
+  storyText: GET OUT OF HERE!
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -7043,7 +7161,7 @@ MonoBehaviour:
   itemId: 265
   errorMessage: 
   indentLevel: 0
-  storyText: I do?
+  storyText: "But\u2013"
   description: 
   character: {fileID: 937218132}
   portrait: {fileID: 0}
@@ -7065,12 +7183,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 264
+  itemId: 316
   errorMessage: 
   indentLevel: 0
-  storyText: Sorry.
+  storyText: 'I run out of the gym, face red with embarrassment and eyes wet with
+    tears. '
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7093,9 +7212,7 @@ MonoBehaviour:
   itemId: 263
   errorMessage: 
   indentLevel: 0
-  storyText: "Sigh\u2026 So it was something like that, huh? Listen, kid. Scareleading\u2019s
-    not about who\u2019s got the biggest horns, or the scaliest skin, or the spikiest
-    tail."
+  storyText: "What, so you cheated! How\u2019s that fair?"
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -7137,10 +7254,7 @@ MonoBehaviour:
   itemId: 262
   errorMessage: 
   indentLevel: 0
-  storyText: "Err\u2026 Well\u2026 You see\u2026 I wanted to try out for scareleading
-    because it looked fun, but everyone said that my horns weren\u2019t scary enough
-    for being a good scareleader, so I thought that I could make my horns scarier
-    to be a good scareleader, and\u2026"
+  storyText: "Err\u2026 Well\u2026 I wanted to look scarier, so\u2026"
   description: 
   character: {fileID: 937218132}
   portrait: {fileID: 0}
@@ -7195,7 +7309,7 @@ MonoBehaviour:
   itemId: 260
   errorMessage: 
   indentLevel: 0
-  storyText: Wait a second, this is just wood! Explain, kid.
+  storyText: Wait a second, this is just cardboard! Explain, kid.
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -7292,12 +7406,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 303
   errorMessage: 
   indentLevel: 0
-  sceneName: start
+  sceneName: transition5_to_party
   loadingImage: {fileID: 0}
 --- !u!114 &1184021769
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  errorMessage: 
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1184021770
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
@@ -7308,12 +7441,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 304
   errorMessage: 
   indentLevel: 0
-  storyText: END OF CURRENT PROTOTYPE
+  storyText: "There\u2019s gotta be a drama classroom or something with things to
+    make me scarier!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7322,24 +7456,6 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!114 &1184021770
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1184021718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  errorMessage: 
-  indentLevel: 0
-  targetGameObject: {fileID: 1388649331}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &1184021771
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7348,17 +7464,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 50
+  itemId: 306
   errorMessage: 
   indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 0
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: R-Right!
+  description: 
+  character: {fileID: 937218132}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021772
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7367,17 +7489,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
+  itemId: 305
   errorMessage: 
   indentLevel: 0
-  duration: 3
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: What kind of club looks fun?
+  description: 
+  character: {fileID: 321116489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7547,11 +7675,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 0}
-  clickableObject: {fileID: 1958031977}
+  itemId: 286
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 406898301}
+  replacedCharacter: {fileID: 406898301}
+  portrait: {fileID: 21300000, guid: d87fae2aa28e97244a1cb7e6b357670e, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1184021782
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7570,7 +7715,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 9625703813c4c2646ae057b9ef089ea0, type: 3}
+  portrait: {fileID: 21300000, guid: 8a0dffda3451e6b46866e40aeeaf6dc4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -7648,6 +7793,7 @@ MonoBehaviour:
   - {fileID: 1184021745}
   - {fileID: 1184021841}
   - {fileID: 1184021840}
+  - {fileID: 1184021771}
   - {fileID: 1184021895}
   - {fileID: 1184021839}
   - {fileID: 1184021838}
@@ -7658,22 +7804,21 @@ MonoBehaviour:
   - {fileID: 1184021894}
   - {fileID: 1184021766}
   - {fileID: 1184021765}
+  - {fileID: 1184021781}
   - {fileID: 1184021764}
   - {fileID: 1184021762}
-  - {fileID: 1184021759}
   - {fileID: 1184021760}
+  - {fileID: 1184021897}
   - {fileID: 1184021896}
   - {fileID: 1184021758}
   - {fileID: 1184021757}
+  - {fileID: 1184021763}
+  - {fileID: 1184021759}
   - {fileID: 1184021756}
   - {fileID: 1184021755}
   - {fileID: 1184021729}
   - {fileID: 1184021728}
   - {fileID: 1184021727}
-  - {fileID: 1184021763}
-  - {fileID: 1184021772}
-  - {fileID: 1184021771}
-  - {fileID: 1184021770}
   - {fileID: 1184021769}
   - {fileID: 1184021768}
 --- !u!114 &1184021785
@@ -7899,7 +8044,7 @@ MonoBehaviour:
   itemId: 18
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019ll definitely need this to attach any enhancements."
+  storyText: "I\u2019ll definitely need this to stick anything together."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8050,11 +8195,10 @@ MonoBehaviour:
   itemId: 196
   errorMessage: 
   indentLevel: 0
-  storyText: "No. I will try out for scareleading! If my horns aren\u2019t scary enough,
-    then I\u2019ll just make them scarier! There\u2019s a store near the school with
-    some supplies that might help!"
+  storyText: "No, I WILL try out for scareleading! If my horns aren\u2019t scary enough,
+    then I\u2019ll just MAKE them scarier!"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8154,6 +8298,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1184021804}
   commandList:
   - {fileID: 1184021730}
+  - {fileID: 1184021772}
   - {fileID: 1184021761}
   - {fileID: 1184021734}
   - {fileID: 1184021733}
@@ -8179,14 +8324,14 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4300004
+  zoom: 0.4600004
   scrollViewRect:
     serializedVersion: 2
     x: -377.92914
     y: -389.04526
     width: 2338.0732
     height: 1247.2526
-  selectedBlock: {fileID: 1184021784}
+  selectedBlock: {fileID: 1184021868}
   selectedCommands: []
   variables:
   - {fileID: 1184021790}
@@ -8679,7 +8824,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 423000120}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 5371bc3d98982eb40bce375bb8cd91d5, type: 3}
+  portrait: {fileID: 21300000, guid: 42d2921da50dc7d44b3ac3e34cfd7011, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -8730,11 +8875,11 @@ MonoBehaviour:
   itemId: 187
   errorMessage: 
   indentLevel: 0
-  storyText: "Hey, what\u2019s that poster say? \u201CAre you the spookiest of the
-    spooky? Can you scare like no one\u2019s every scared before? If so, join the
-    Scareleading Team! Tryouts all week!\u201D That sounds like fun! "
+  storyText: "What\u2019s that poster? \u201CAre you the spookiest of the spooky?
+    Can you scare like no one\u2019s every scared before? If so, join the Scareleading
+    Team! Tryouts all week!\u201D That sounds like fun!"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8826,7 +8971,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "I\u2019m doing pretty well! I can do this!"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8940,7 +9085,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Here\u2019s the gym! Did I make it in time?"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9329,7 +9474,7 @@ MonoBehaviour:
   storyText: "That should do it! Now to put this stuff on, and I\u2019ll be ready
     for scareleading!"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9731,9 +9876,10 @@ MonoBehaviour:
   itemId: 206
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019ll put the stuff that I can use in my bag for now!"
+  storyText: "I\u2019ll put the stuff that I can use in my backpack for now. There\u2019s
+    gotta be at least three things I can use!"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9756,10 +9902,10 @@ MonoBehaviour:
   itemId: 205
   errorMessage: 
   indentLevel: 0
-  storyText: "Alright, I bought a bunch of stuff from the store. But now to figure
-    out what to do with it\u2026"
+  storyText: "Alright, I found a lot of stuff! But now to figure out what to do with
+    it\u2026"
   description: 
-  character: {fileID: 937218132}
+  character: {fileID: 321116489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9912,7 +10058,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 9625703813c4c2646ae057b9ef089ea0, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -9968,8 +10114,7 @@ MonoBehaviour:
   itemId: 285
   errorMessage: 
   indentLevel: 0
-  storyText: "What you need to be a scareleader is an intimidating spirit and unrivaled
-    enthusiasm. You\u2019ve got those, Meta."
+  storyText: "No excuses, kid! We don\u2019t take cheaters on the team!"
   description: 
   character: {fileID: 406898301}
   portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
@@ -9980,64 +10125,32 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
---- !u!1 &1194055188
-GameObject:
-  m_ObjectHideFlags: 0
+--- !u!114 &1184021897
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1194055189}
-  - 212: {fileID: 1194055190}
-  m_Layer: 0
-  m_Name: Background - Cafeteria without Bullies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1194055189
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1194055188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
-  m_Children: []
-  m_Father: {fileID: 119849623}
-  m_RootOrder: 20
---- !u!212 &1194055190
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1194055188}
+  m_GameObject: {fileID: 1184021718}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f22a9482d64cdc64e9a1340f5648f0ae, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  errorMessage: 
+  indentLevel: 0
+  storyText: "It\u2019s not like I meant to\u2013 I mean, I just wanted to look scarier
+    and\u2013"
+  description: 
+  character: {fileID: 937218132}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1378740158
 Prefab:
   m_ObjectHideFlags: 0
@@ -10080,60 +10193,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 752342083f02260458dc4c2e9f175d83, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1388649329
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 119849623}
-    m_Modifications:
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1388649330 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 449112, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
---- !u!1 &1388649331 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 184094, guid: 98a6ae380df41374ab7883e94b278398, type: 2}
-  m_PrefabInternal: {fileID: 1388649329}
 --- !u!1 &1402402711
 GameObject:
   m_ObjectHideFlags: 0
@@ -10286,7 +10345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 537212815}
+  selectedFlowchart: {fileID: 1184021807}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1
@@ -10322,8 +10381,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532265140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.77, y: -0.07, z: 0}
+  m_LocalScale: {x: 1.325358, y: 1.3271946, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 1
@@ -10724,7 +10783,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743918981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4, y: 0.85, z: 0}
+  m_LocalPosition: {x: 4.4, y: 0.74, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
@@ -11288,8 +11347,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2121165342}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
-  m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalPosition: {x: 1.78, y: -0.06, z: 0}
+  m_LocalScale: {x: 1.3186215, y: 1.3301886, z: 1}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 2
