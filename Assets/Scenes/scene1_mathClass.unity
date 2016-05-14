@@ -767,7 +767,7 @@ MonoBehaviour:
   storyText: "Express your answer in Picoscreams\u2026 This doesn't make any sense!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -810,7 +810,7 @@ MonoBehaviour:
   storyText: "How could I make such a stupid mistake? I can\u2019t do anything right\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -835,7 +835,7 @@ MonoBehaviour:
   storyText: "That\u2019s enough! Settle down; we\u2019re continuing with class."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -947,7 +947,7 @@ MonoBehaviour:
   storyText: "Now now, Meta was on the right track.  He just missed a step\u2013"
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1030,7 +1030,7 @@ MonoBehaviour:
     the increase in heart rate that you\u2019d get the right answer, and\u2013"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   storyText: "I\u2019m afraid that\u2019s not the correct answer, Meta."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1561,7 +1561,7 @@ MonoBehaviour:
     them around Frankenstein\u2019s Axis of Fear."
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1588,7 +1588,7 @@ MonoBehaviour:
     to do.  "
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1614,7 +1614,7 @@ MonoBehaviour:
     Matrices, and Trickonometry and work on problem 641 please.
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   storyText: "It\u2019s nice to meet you, Meta! Now, let\u2019s get started."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1683,7 +1683,7 @@ MonoBehaviour:
     it is!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   storyText: Umm... Is it 12?
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2089,7 +2089,7 @@ MonoBehaviour:
     start with Meta!"
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   storyText: The name is Meta!
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2603,7 +2603,7 @@ MonoBehaviour:
   storyText: Excellent! I'm Dr. Integrr, and I teach Spookulus 1. What's your name?
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2628,7 +2628,7 @@ MonoBehaviour:
   storyText: Y-Yes, I am!
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2665,7 +2665,7 @@ MonoBehaviour:
   storyText: Hello there! Looking for Spookulus 1?
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2753,7 +2753,8 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 443532397}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 443532339}
   variables:
   - {fileID: 443532403}
   description: 
@@ -4398,7 +4399,7 @@ MonoBehaviour:
   storyText: "That\u2019s enough! Settle down; we\u2019re continuing with class."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4454,7 +4455,7 @@ MonoBehaviour:
     start with Meta!"
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5016,7 +5017,7 @@ MonoBehaviour:
     Matrices, and Trickonometry and work on problem 641 please.
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5096,7 +5097,7 @@ MonoBehaviour:
   storyText: Excellent! I'm Dr. Integrr, and I teach Spookulus 1. What's your name?
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5158,7 +5159,7 @@ MonoBehaviour:
   storyText: Hello there! Looking for Spookulus 1?
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5242,7 +5243,8 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 1850946709}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1850946705}
   variables:
   - {fileID: 1850946715}
   description: 
@@ -5269,7 +5271,7 @@ MonoBehaviour:
   storyText: "It\u2019s nice to meet you, Meta! Now, let\u2019s get started."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5822,7 +5824,7 @@ MonoBehaviour:
   storyText: "Now now, Meta was on the right track. He just missed a step\u2013"
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5985,7 +5987,7 @@ MonoBehaviour:
   storyText: "I\u2019m afraid that\u2019s not the correct answer, Meta."
   description: 
   character: {fileID: 548067046}
-  portrait: {fileID: 21300000, guid: bf3712f8dfb04c14cb9193555721d1eb, type: 3}
+  portrait: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

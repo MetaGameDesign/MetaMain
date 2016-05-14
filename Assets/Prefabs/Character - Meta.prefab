@@ -54,6 +54,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 764a6fa0f38559846882c8a270ca4d07, type: 3}
   - {fileID: 21300000, guid: 1908b9f553b22834ba1ecd5a2542739e, type: 3}
   - {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  - {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Meta - the main character

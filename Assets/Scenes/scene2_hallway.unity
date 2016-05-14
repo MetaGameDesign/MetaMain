@@ -812,7 +812,7 @@ MonoBehaviour:
     and then left all the way over here\u2026 It opened!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -837,7 +837,7 @@ MonoBehaviour:
   storyText: "I don\u2019t get it\u2026 Why do some monsters have to be so mean?"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -887,7 +887,7 @@ MonoBehaviour:
   storyText: Ow! Stop! Not Captain Terror!
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -963,7 +963,7 @@ MonoBehaviour:
   storyText: "I was just trying to get my locker open, and\u2013"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -989,7 +989,7 @@ MonoBehaviour:
     of them all!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1531,7 +1531,7 @@ MonoBehaviour:
     day!\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   storyText: No!
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     had no head?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   storyText: No.
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1633,7 +1633,7 @@ MonoBehaviour:
     him on the first night?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   storyText: "No\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1684,7 +1684,7 @@ MonoBehaviour:
     supposed to turn the lock right, then left, then right\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   storyText: "That was terrible\u2026 Why did that bully have to be so mean to me?"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1735,7 +1735,7 @@ MonoBehaviour:
     is!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   storyText: "Hey, that\u2019s my bag!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2069,7 +2069,7 @@ MonoBehaviour:
     at a monster for messing up a scare!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2614,7 +2614,7 @@ MonoBehaviour:
     him at first?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2666,7 +2666,7 @@ MonoBehaviour:
   storyText: "Um\u2026 That\u2019s not a very nice way to talk to someone\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2799,9 +2799,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 443532420}
+  selectedBlock: {fileID: 443532397}
   selectedCommands:
-  - {fileID: 443532375}
+  - {fileID: 443532338}
   variables:
   - {fileID: 443532403}
   description: 
@@ -2930,7 +2930,7 @@ MonoBehaviour:
   storyText: "I don\u2019t know, Captain Terror."
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2956,7 +2956,7 @@ MonoBehaviour:
     people sometimes! You just have to keep trying!\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2982,7 +2982,7 @@ MonoBehaviour:
     right, and everyone laughed at me."
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3009,7 +3009,7 @@ MonoBehaviour:
     the side, and done!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3035,7 +3035,7 @@ MonoBehaviour:
     real, and he helps anyone who needs him!"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4086,7 +4086,7 @@ MonoBehaviour:
     day!\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4137,7 +4137,7 @@ MonoBehaviour:
     had no head?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4188,7 +4188,7 @@ MonoBehaviour:
     him on the first night?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4239,7 +4239,7 @@ MonoBehaviour:
     him at first?\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4290,7 +4290,7 @@ MonoBehaviour:
     people sometimes! You just have to keep trying!\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5935,9 +5935,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 1184021806}
+  selectedBlock: {fileID: 1184021784}
   selectedCommands:
-  - {fileID: 1184021732}
+  - {fileID: 1184021721}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -6117,7 +6117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1184021807}
+  selectedFlowchart: {fileID: 443532421}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1

@@ -448,7 +448,7 @@ MonoBehaviour:
     they ignoring me?"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -522,7 +522,7 @@ MonoBehaviour:
   storyText: Why is nobody talking to me?
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -621,7 +621,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -696,7 +696,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -796,7 +796,7 @@ MonoBehaviour:
   storyText: Awesome!
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2434,8 +2434,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2295.3198
     height: 1056.5464
-  selectedBlock: {fileID: 0}
-  selectedCommands: []
+  selectedBlock: {fileID: 106480392}
+  selectedCommands:
+  - {fileID: 106480297}
   variables:
   - {fileID: 106480398}
   description: 
@@ -4107,7 +4108,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: 96a9e51f44c2ae64b87b0dc59ad6dc76, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 77610ad10ff793445b7cea494e4f3fe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4216,6 +4217,7 @@ GameObject:
   - 114: {fileID: 1184021762}
   - 114: {fileID: 1184021759}
   - 114: {fileID: 1184021758}
+  - 114: {fileID: 1184021760}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -5003,6 +5005,19 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &1184021760
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1184021840}
+  clickableObject: {fileID: 367100906}
 --- !u!114 &1184021762
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5756,13 +5771,13 @@ MonoBehaviour:
   zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
-    x: -362.06897
+    x: -393.10342
     y: -354.4776
-    width: 2209.1135
-    height: 1007.16406
-  selectedBlock: {fileID: 1184021793}
+    width: 2240.1477
+    height: 1087.5808
+  selectedBlock: {fileID: 1184021784}
   selectedCommands:
-  - {fileID: 1184021791}
+  - {fileID: 1184021828}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -5948,7 +5963,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6023,7 +6038,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6123,7 +6138,7 @@ MonoBehaviour:
   storyText: Awesome!
   description: 
   character: {fileID: 1863580458}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6274,14 +6289,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 53.448273
-    y: 143.10338
-    width: 120
+    x: 8.62072
+    y: 244.82745
+    width: 219
     height: 40
   itemId: 248
   blockName: Click Poster
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1184021760}
   commandList:
   - {fileID: 1184021733}
   - {fileID: 1184021732}
@@ -6799,7 +6814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1184021807}
+  selectedFlowchart: {fileID: 106480410}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1

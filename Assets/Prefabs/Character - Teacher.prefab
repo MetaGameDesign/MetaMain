@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Dr. Integrrr
+  nameText: Dr. Integrrr says...
   nameColor: {r: 0.7352941, g: 0.65893096, b: 0.04325259, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: f9c76845df17a584fb170e2b4d527599, type: 3}

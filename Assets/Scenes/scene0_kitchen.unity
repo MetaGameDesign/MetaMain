@@ -870,7 +870,7 @@ MonoBehaviour:
   storyText: Ready to go, Meta? I hope you have a wonderful day!
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1570,7 +1570,7 @@ MonoBehaviour:
     your first day."
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1596,7 +1596,7 @@ MonoBehaviour:
     monsters.
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1622,7 +1622,7 @@ MonoBehaviour:
     like?
   description: 
   character: {fileID: 1521641655}
-  portrait: {fileID: 21300000, guid: 2cd8b4e0c50175f4a9956f088c5549fe, type: 3}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   storyText: Hey, kiddo, excited for your first day?
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 21300000, guid: aaae2f35b260e3e4baf84268aca0dae6, type: 3}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1763,9 +1763,9 @@ MonoBehaviour:
     y: -448.93616
     width: 2164.8027
     height: 1066.9364
-  selectedBlock: {fileID: 520613153}
+  selectedBlock: {fileID: 520613123}
   selectedCommands:
-  - {fileID: 520613106}
+  - {fileID: 520613118}
   variables:
   - {fileID: 520613129}
   description: 
@@ -3353,7 +3353,7 @@ MonoBehaviour:
   storyText: Ready to go, Meta? I hope you have a wonderful day!
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3977,7 +3977,7 @@ MonoBehaviour:
     your first day."
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4003,7 +4003,7 @@ MonoBehaviour:
     monsters.
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4093,7 +4093,7 @@ MonoBehaviour:
   storyText: Hey, kiddo, excited for your first day?
   description: 
   character: {fileID: 539621423}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b68ff2a59a6a5e04aa7a09471d93607b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4167,9 +4167,9 @@ MonoBehaviour:
     y: -384
     width: 2162.2837
     height: 1269.3977
-  selectedBlock: {fileID: 2029743990}
+  selectedBlock: {fileID: 2029743960}
   selectedCommands:
-  - {fileID: 2029743954}
+  - {fileID: 2029743955}
   variables:
   - {fileID: 2029743966}
   description: 
@@ -4470,7 +4470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 520613154}
+  selectedFlowchart: {fileID: 2029743991}
 --- !u!4 &2031054712
 Transform:
   m_ObjectHideFlags: 1

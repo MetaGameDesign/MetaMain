@@ -1236,7 +1236,7 @@ MonoBehaviour:
   storyText: "No excuses, kid! We don\u2019t take cheaters on the team!"
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1531,7 +1531,7 @@ MonoBehaviour:
     even do that right! I\u2019m just a useless monster as worthless as my horns\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   storyText: GET OUT OF HERE!
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   storyText: "But\u2013"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1706,7 +1706,7 @@ MonoBehaviour:
   storyText: "What, so you cheated! How\u2019s that fair?"
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   storyText: "Err\u2026 Well\u2026 I wanted to look scarier, so\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1756,7 +1756,7 @@ MonoBehaviour:
   storyText: Wait a second, this is just cardboard! Explain, kid.
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2868,7 +2868,7 @@ MonoBehaviour:
   storyText: "But\u2026 I wanted to\u2026"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3843,7 +3843,7 @@ MonoBehaviour:
     I should try out for a club."
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4238,7 +4238,7 @@ MonoBehaviour:
     and\u2013"
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4535,9 +4535,9 @@ MonoBehaviour:
   - {fileID: 537212664}
   - {fileID: 537212739}
   - {fileID: 537212663}
+  - {fileID: 537212787}
   - {fileID: 537212662}
   - {fileID: 537212661}
-  - {fileID: 537212787}
   - {fileID: 537212785}
   - {fileID: 537212639}
   - {fileID: 537212659}
@@ -4965,7 +4965,8 @@ MonoBehaviour:
     width: 2338.0732
     height: 1247.2526
   selectedBlock: {fileID: 537212797}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 537212653}
   variables:
   - {fileID: 537212803}
   description: 
@@ -5480,7 +5481,7 @@ MonoBehaviour:
   storyText: What kind of club looks fun?
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7139,7 +7140,7 @@ MonoBehaviour:
   storyText: GET OUT OF HERE!
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7215,7 +7216,7 @@ MonoBehaviour:
   storyText: "What, so you cheated! How\u2019s that fair?"
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: 25bb0270e7787d34da4b0af4541b6a22, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7312,7 +7313,7 @@ MonoBehaviour:
   storyText: Wait a second, this is just cardboard! Explain, kid.
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: d3d587ee0baf03241b9e0a1a35ef25e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8331,8 +8332,9 @@ MonoBehaviour:
     y: -389.04526
     width: 2338.0732
     height: 1247.2526
-  selectedBlock: {fileID: 1184021868}
-  selectedCommands: []
+  selectedBlock: {fileID: 1184021784}
+  selectedCommands:
+  - {fileID: 1184021757}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -10117,7 +10119,7 @@ MonoBehaviour:
   storyText: "No excuses, kid! We don\u2019t take cheaters on the team!"
   description: 
   character: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 2d6770aa64971e24cbd57bbec791719a, type: 3}
+  portrait: {fileID: 21300000, guid: 25bb0270e7787d34da4b0af4541b6a22, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10701,7 +10703,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 96a9e51f44c2ae64b87b0dc59ad6dc76, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 77610ad10ff793445b7cea494e4f3fe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

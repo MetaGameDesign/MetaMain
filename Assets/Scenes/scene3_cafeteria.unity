@@ -2109,7 +2109,7 @@ MonoBehaviour:
   storyText: '...sigh...'
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2816,9 +2816,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 920657631}
+  selectedBlock: {fileID: 920657613}
   selectedCommands:
-  - {fileID: 920657565}
+  - {fileID: 920657575}
   variables:
   - {fileID: 920657619}
   description: 
@@ -4580,8 +4580,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 1184021806}
-  selectedCommands: []
+  selectedBlock: {fileID: 1184021784}
+  selectedCommands:
+  - {fileID: 1184021745}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -4931,7 +4932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1184021807}
+  selectedFlowchart: {fileID: 920657632}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1
