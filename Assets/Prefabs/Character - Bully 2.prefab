@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Teri Bell says...
+  nameText: Boo Lee says...
   nameColor: {r: 0.9852941, g: 0.5727896, b: 0.05071366, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}

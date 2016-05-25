@@ -731,6 +731,9 @@ GameObject:
   - 114: {fileID: 443532395}
   - 114: {fileID: 443532384}
   - 114: {fileID: 443532349}
+  - 114: {fileID: 443532434}
+  - 114: {fileID: 443532433}
+  - 114: {fileID: 443532432}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -2398,6 +2401,7 @@ MonoBehaviour:
   eventHandler: {fileID: 443532405}
   commandList:
   - {fileID: 443532385}
+  - {fileID: 443532432}
   - {fileID: 443532404}
   - {fileID: 443532400}
   - {fileID: 443532389}
@@ -2465,6 +2469,7 @@ MonoBehaviour:
   eventHandler: {fileID: 443532408}
   commandList:
   - {fileID: 443532386}
+  - {fileID: 443532433}
   - {fileID: 443532407}
   - {fileID: 443532401}
   - {fileID: 443532391}
@@ -2532,6 +2537,7 @@ MonoBehaviour:
   eventHandler: {fileID: 443532411}
   commandList:
   - {fileID: 443532387}
+  - {fileID: 443532434}
   - {fileID: 443532410}
   - {fileID: 443532402}
   - {fileID: 443532399}
@@ -2799,9 +2805,9 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 443532397}
+  selectedBlock: {fileID: 443532406}
   selectedCommands:
-  - {fileID: 443532338}
+  - {fileID: 443532432}
   variables:
   - {fileID: 443532403}
   description: 
@@ -3069,6 +3075,57 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &443532432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &443532433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &443532434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443532334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
 --- !u!1 &573278289
 GameObject:
   m_ObjectHideFlags: 0

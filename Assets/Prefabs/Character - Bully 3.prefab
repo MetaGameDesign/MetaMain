@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Meen E. says...
+  nameText: Barb says...
   nameColor: {r: 0.71323526, g: 0.33347002, b: 0.16257566, a: 1}
   soundEffect: {fileID: 0}
   profileSprite: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}

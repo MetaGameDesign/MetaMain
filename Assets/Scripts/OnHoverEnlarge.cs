@@ -25,15 +25,44 @@ public class OnHoverEnlarge : MonoBehaviour {
     void OnMouseOver()
     {
         if (isHoverActive)
+        {
             AdjustScale(scaleIncrease);
+
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateClosedHand();
+        } else
+        {
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateHand();
+        }
+            
     }
 
     void OnMouseExit()
     {
         if (isHoverActive)
+        {
             AdjustScale(originalScale);
-    }
 
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateHand();
+
+        } else
+        {
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateHand();
+        }
+            
+    }
+    
     void AdjustScale(float amt)
     {
         transform.localScale = new Vector3(amt, amt, 0f);

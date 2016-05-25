@@ -1182,6 +1182,9 @@ GameObject:
   - 114: {fileID: 537212656}
   - 114: {fileID: 537212655}
   - 114: {fileID: 537212654}
+  - 114: {fileID: 537212835}
+  - 114: {fileID: 537212834}
+  - 114: {fileID: 537212786}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -3306,7 +3309,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: 25bb0270e7787d34da4b0af4541b6a22, type: 3}
+  portrait: {fileID: 21300000, guid: 6e8213ddd94071145be37b4aad774013, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4246,6 +4249,23 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &537212786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 325
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
 --- !u!114 &537212787
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4757,6 +4777,7 @@ MonoBehaviour:
   eventHandler: {fileID: 537212805}
   commandList:
   - {fileID: 537212788}
+  - {fileID: 537212834}
   - {fileID: 537212804}
   - {fileID: 537212800}
   - {fileID: 537212792}
@@ -4823,6 +4844,7 @@ MonoBehaviour:
   eventHandler: {fileID: 537212808}
   commandList:
   - {fileID: 537212789}
+  - {fileID: 537212786}
   - {fileID: 537212807}
   - {fileID: 537212801}
   - {fileID: 537212794}
@@ -4889,6 +4911,7 @@ MonoBehaviour:
   eventHandler: {fileID: 537212811}
   commandList:
   - {fileID: 537212790}
+  - {fileID: 537212835}
   - {fileID: 537212810}
   - {fileID: 537212802}
   - {fileID: 537212799}
@@ -4964,9 +4987,9 @@ MonoBehaviour:
     y: -389.04526
     width: 2338.0732
     height: 1247.2526
-  selectedBlock: {fileID: 537212797}
+  selectedBlock: {fileID: 537212809}
   selectedCommands:
-  - {fileID: 537212653}
+  - {fileID: 537212789}
   variables:
   - {fileID: 537212803}
   description: 
@@ -5489,6 +5512,40 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &537212834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 324
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &537212835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 537212637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 323
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
 --- !u!1 &573278289
 GameObject:
   m_ObjectHideFlags: 0
@@ -7686,7 +7743,7 @@ MonoBehaviour:
   display: 3
   character: {fileID: 406898301}
   replacedCharacter: {fileID: 406898301}
-  portrait: {fileID: 21300000, guid: d87fae2aa28e97244a1cb7e6b357670e, type: 3}
+  portrait: {fileID: 21300000, guid: 7469158f0426d5643a9f1ee833fc86e8, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8332,9 +8389,9 @@ MonoBehaviour:
     y: -389.04526
     width: 2338.0732
     height: 1247.2526
-  selectedBlock: {fileID: 1184021784}
+  selectedBlock: {fileID: 1184021799}
   selectedCommands:
-  - {fileID: 1184021757}
+  - {fileID: 1184021797}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -10347,7 +10404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1184021807}
+  selectedFlowchart: {fileID: 537212815}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1

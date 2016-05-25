@@ -325,6 +325,17 @@ GameObject:
   - 114: {fileID: 106480298}
   - 114: {fileID: 106480297}
   - 114: {fileID: 106480293}
+  - 114: {fileID: 106480296}
+  - 114: {fileID: 106480295}
+  - 114: {fileID: 106480294}
+  - 114: {fileID: 106480334}
+  - 114: {fileID: 106480302}
+  - 114: {fileID: 106480301}
+  - 114: {fileID: 106480300}
+  - 114: {fileID: 106480299}
+  - 114: {fileID: 106480337}
+  - 114: {fileID: 106480336}
+  - 114: {fileID: 106480335}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -430,6 +441,57 @@ MonoBehaviour:
   indentLevel: 0
   sceneName: ending
   loadingImage: {fileID: 0}
+--- !u!114 &106480294
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 325
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &106480295
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 324
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &106480296
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 323
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
 --- !u!114 &106480297
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -444,8 +506,7 @@ MonoBehaviour:
   itemId: 257
   errorMessage: 
   indentLevel: 0
-  storyText: "Hello? They\u2019re eating my cake and not even talking to me. Why are
-    they ignoring me?"
+  storyText: Wait, what? But I made them cake. Why were they ignoring me?
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
@@ -486,6 +547,106 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &106480299
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 330
+  errorMessage: 
+  indentLevel: 0
+  storyText: But- but-
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480300
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 329
+  errorMessage: 
+  indentLevel: 0
+  storyText: Nope. No more flyers. Bye, kid.
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480301
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 328
+  errorMessage: 
+  indentLevel: 0
+  storyText: But you have some right there.
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480302
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 327
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh would you look at that? Looks like we ran out of flyers.
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &106480303
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -519,7 +680,7 @@ MonoBehaviour:
   itemId: 182
   errorMessage: 
   indentLevel: 0
-  storyText: Why is nobody talking to me?
+  storyText: Hello? Why is no one talking to me?
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
@@ -646,7 +807,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -721,7 +882,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -822,7 +983,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1863580458}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 182b6ff955711684aba02a1c8f815b58, type: 3}
+  portrait: {fileID: 21300000, guid: d68935c47b28c504fa8563282180668f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -881,7 +1042,7 @@ MonoBehaviour:
   storyText: Look! Cake!
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1139,6 +1300,108 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &106480334
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 326
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Oh! It looks like there\u2019s going to be a party! Maybe Meta should
+    ask the scareleader about it."
+  description: 
+  character: {fileID: 1226946423}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 333
+  errorMessage: 
+  indentLevel: 0
+  storyText: "On the other side of the room? Yeah, I think I hear them, too. Let\u2019s
+    go!"
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 332
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, I was!
+  description: 
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &106480337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 331
+  errorMessage: 
+  indentLevel: 0
+  storyText: I think I hear someone calling us, Scarella.
+  description: 
+  character: {fileID: 694718703}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &106480338
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1153,8 +1416,8 @@ MonoBehaviour:
   itemId: 226
   errorMessage: 
   indentLevel: 0
-  storyText: Meta needs to make a cake for the party! Cakes need milk, flour, and
-    frosting. Help Meta collect the items and drag them into a mixing bowl.
+  storyText: "Help Meta make a cake for the party! They\u2019ll need milk, flour,
+    and frosting. When the items have been collected, drag them to the mixing bowl."
   description: 
   character: {fileID: 1226946423}
   portrait: {fileID: 0}
@@ -1179,8 +1442,7 @@ MonoBehaviour:
   itemId: 145
   errorMessage: 
   indentLevel: 0
-  storyText: The scareleader pretends not to hear Meta and walks away, but they left
-    a flier behind. Help Meta pick it up.
+  storyText: It looks like she left a flyer behind. Help Meta pick it up.
   description: 
   character: {fileID: 1226946423}
   portrait: {fileID: 0}
@@ -1239,7 +1501,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1863580458}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 182b6ff955711684aba02a1c8f815b58, type: 3}
+  portrait: {fileID: 21300000, guid: d68935c47b28c504fa8563282180668f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -1265,8 +1527,7 @@ MonoBehaviour:
   itemId: 137
   errorMessage: 
   indentLevel: 0
-  storyText: In the hallway, there's a scareleader slipping flyers in lockers. Maybe
-    Meta should ask her about it.
+  storyText: In the hallway, there's a scareleader slipping flyers in lockers.
   description: 
   character: {fileID: 1226946423}
   portrait: {fileID: 0}
@@ -1523,7 +1784,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: Not in this cake.
+  storyText: Not in monster cake.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2019,6 +2280,9 @@ MonoBehaviour:
   - {fileID: 106480309}
   - {fileID: 106480416}
   - {fileID: 106480304}
+  - {fileID: 106480337}
+  - {fileID: 106480336}
+  - {fileID: 106480335}
   - {fileID: 106480297}
   - {fileID: 106480303}
   - {fileID: 106480293}
@@ -2227,6 +2491,7 @@ MonoBehaviour:
   eventHandler: {fileID: 106480400}
   commandList:
   - {fileID: 106480382}
+  - {fileID: 106480294}
   - {fileID: 106480399}
   - {fileID: 106480395}
   - {fileID: 106480386}
@@ -2245,8 +2510,8 @@ MonoBehaviour:
   itemId: 18
   errorMessage: 
   indentLevel: 0
-  storyText: "Milk will make the cake moist...and make Meta's growing monsters\u2019
-    bones strong too!"
+  storyText: Milk will make the cake moist...and make Meta's growing monster bones
+    strong too!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2294,6 +2559,7 @@ MonoBehaviour:
   eventHandler: {fileID: 106480403}
   commandList:
   - {fileID: 106480383}
+  - {fileID: 106480295}
   - {fileID: 106480402}
   - {fileID: 106480396}
   - {fileID: 106480388}
@@ -2360,6 +2626,7 @@ MonoBehaviour:
   eventHandler: {fileID: 106480406}
   commandList:
   - {fileID: 106480384}
+  - {fileID: 106480296}
   - {fileID: 106480405}
   - {fileID: 106480397}
   - {fileID: 106480394}
@@ -2402,9 +2669,14 @@ MonoBehaviour:
   - {fileID: 106480344}
   - {fileID: 106480292}
   - {fileID: 106480345}
+  - {fileID: 106480334}
   - {fileID: 106480427}
   - {fileID: 106480353}
+  - {fileID: 106480302}
+  - {fileID: 106480301}
+  - {fileID: 106480300}
   - {fileID: 106480343}
+  - {fileID: 106480299}
   - {fileID: 106480423}
   - {fileID: 106480425}
   - {fileID: 106480341}
@@ -2423,7 +2695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -343.10266, y: 36.20684}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4213,11 +4485,17 @@ GameObject:
   - 114: {fileID: 1184021733}
   - 114: {fileID: 1184021732}
   - 114: {fileID: 1184021731}
-  - 114: {fileID: 1184021763}
   - 114: {fileID: 1184021762}
   - 114: {fileID: 1184021759}
   - 114: {fileID: 1184021758}
   - 114: {fileID: 1184021760}
+  - 114: {fileID: 1184021768}
+  - 114: {fileID: 1184021767}
+  - 114: {fileID: 1184021766}
+  - 114: {fileID: 1184021765}
+  - 114: {fileID: 1184021764}
+  - 114: {fileID: 1184021763}
+  - 114: {fileID: 1184021761}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -4430,8 +4708,7 @@ MonoBehaviour:
   itemId: 137
   errorMessage: 
   indentLevel: 0
-  storyText: In the hallway, I see a scareleader slipping flyers in lockers. Maybe
-    I should ask her about it.
+  storyText: In the hallway, I see a scareleader slipping flyers in lockers.
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -4709,7 +4986,7 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: The cake looks great! Time to head for the party.
+  storyText: The cake looks great! Time for the party!
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -4748,7 +5025,7 @@ MonoBehaviour:
   itemId: 80
   errorMessage: 
   indentLevel: 0
-  storyText: Maybe if you get invited to a birthday party for a bunny monster. They
+  storyText: Maybe if I get invited to a birthday party for a bunny monster. They
     love carrot cake.
   description: 
   character: {fileID: 0}
@@ -4811,7 +5088,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: Not in this cake.
+  storyText: Not in monster cake.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4859,8 +5136,7 @@ MonoBehaviour:
   itemId: 76
   errorMessage: 
   indentLevel: 0
-  storyText: "Despite what you did at lunch, Poo-ding isn\u2019t exactly a dessert
-    food."
+  storyText: "Despite what I did at lunch, Poo-ding isn\u2019t exactly a dessert food."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4958,8 +5234,8 @@ MonoBehaviour:
   itemId: 265
   errorMessage: 
   indentLevel: 0
-  storyText: "I have to make a cake for the party! I\u2019ll need milk, flour, and
-    frosting. I can drag the items to the mixing bowl when I\u2019ve found them."
+  storyText: "I\u2019m going to make a cake for the party! I\u2019ll need milk, flour,
+    and frosting. I can drag the items to the mixing bowl when I\u2019ve found them."
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -5018,6 +5294,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1184021840}
   clickableObject: {fileID: 367100906}
+--- !u!114 &1184021761
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  errorMessage: 
+  indentLevel: 0
+  storyText: Yeah, I was!
+  description: 
+  character: {fileID: 643315404}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1184021762
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5032,7 +5333,7 @@ MonoBehaviour:
   itemId: 288
   errorMessage: 
   indentLevel: 0
-  storyText: 'Hello? '
+  storyText: Wait, what? But I made them cake. Why were they ignoring me?
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -5054,11 +5355,137 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 287
+  itemId: 296
   errorMessage: 
   indentLevel: 0
-  storyText: "They\u2019re eating my cake and not even talking to me. Why are they
-    ignoring me?"
+  storyText: "On the other side of the room? Yeah, I think I hear them, too. Let\u2019s
+    go!"
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021764
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 295
+  errorMessage: 
+  indentLevel: 0
+  storyText: I think I hear someone calling us, Scarella.
+  description: 
+  character: {fileID: 694718703}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021765
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 294
+  errorMessage: 
+  indentLevel: 0
+  storyText: Nope. No more flyers. Bye, kid.
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021766
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 293
+  errorMessage: 
+  indentLevel: 0
+  storyText: But you have some right there.
+  description: 
+  character: {fileID: 643315404}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021767
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 292
+  errorMessage: 
+  indentLevel: 0
+  storyText: Oh would you look at that? Looks like we ran out of flyers.
+  description: 
+  character: {fileID: 1863580458}
+  portrait: {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021768
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 291
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Oh! It looks like there\u2019s going to be a party! Maybe I should ask
+    the scareleader about it."
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -5280,8 +5707,10 @@ MonoBehaviour:
   - {fileID: 1184021822}
   - {fileID: 1184021821}
   - {fileID: 1184021816}
-  - {fileID: 1184021762}
+  - {fileID: 1184021764}
+  - {fileID: 1184021761}
   - {fileID: 1184021763}
+  - {fileID: 1184021762}
   - {fileID: 1184021759}
   - {fileID: 1184021758}
 --- !u!114 &1184021785
@@ -5441,8 +5870,7 @@ MonoBehaviour:
   itemId: 20
   errorMessage: 
   indentLevel: 0
-  storyText: "Frosting\u2019s the best part! I have to be careful not to eat it all
-    now."
+  storyText: "Frosting\u2019s the best part! I can't eat it all now."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5509,7 +5937,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "Milk will make the cake moist...and make my growing monsters\u2019 bones
-    strong too!"
+    strong, too!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5708,8 +6136,7 @@ MonoBehaviour:
   itemId: 145
   errorMessage: 
   indentLevel: 0
-  storyText: The scareleader pretends not to hear me and walks away, but they left
-    a flyer behind. I'll go pick it up.
+  storyText: "But- but! Oh! They left a flyer behind! I\u2019ll go pick it up."
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -5745,7 +6172,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 1184021810}
   - {fileID: 1184021730}
+  - {fileID: 1184021768}
   - {fileID: 1184021741}
+  - {fileID: 1184021767}
+  - {fileID: 1184021766}
+  - {fileID: 1184021765}
   - {fileID: 1184021809}
   - {fileID: 1184021841}
   - {fileID: 1184021805}
@@ -5764,7 +6195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -284.4823, y: 32.758575}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -5776,8 +6207,7 @@ MonoBehaviour:
     width: 2240.1477
     height: 1087.5808
   selectedBlock: {fileID: 1184021784}
-  selectedCommands:
-  - {fileID: 1184021828}
+  selectedCommands: []
   variables:
   - {fileID: 1184021790}
   description: 
@@ -5835,7 +6265,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1863580458}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: 824eac44854b9ab45b0bccdc4285d2c0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -5861,7 +6291,7 @@ MonoBehaviour:
   itemId: 182
   errorMessage: 
   indentLevel: 0
-  storyText: Why is nobody talking to me?
+  storyText: Hello? Why is no one talking to me?
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -5988,7 +6418,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6010,7 +6440,7 @@ MonoBehaviour:
   itemId: 175
   errorMessage: 
   indentLevel: 0
-  storyText: Do you like my cake?
+  storyText: You like my cake?
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
@@ -6063,7 +6493,7 @@ MonoBehaviour:
   storyText: '...'
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6164,7 +6594,7 @@ MonoBehaviour:
   display: 1
   character: {fileID: 1863580458}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  portrait: {fileID: 21300000, guid: 824eac44854b9ab45b0bccdc4285d2c0, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047174}
@@ -6223,7 +6653,7 @@ MonoBehaviour:
   storyText: Look! Cake!
   description: 
   character: {fileID: 694718703}
-  portrait: {fileID: 21300000, guid: dff15f17050ece24b97c268213c8962b, type: 3}
+  portrait: {fileID: 21300000, guid: 9abda7288b6949b43acb8756fe85c89b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

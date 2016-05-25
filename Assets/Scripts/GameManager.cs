@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        switch (SceneController.Scene.GetGameType())
+        switch (SceneController.Main.GetGameType())
         {
             case (GameType.Identification):
                 identificationFlowchart.gameObject.SetActive(true);
@@ -23,5 +23,11 @@ public class GameManager : MonoBehaviour {
                 Debug.LogError("Please select between differentiation and identification.");
                 break;
         }
+    }
+
+
+    public void ResetHand()
+    {
+        MonitorMouse.Main.ActivateHand();
     }
 }

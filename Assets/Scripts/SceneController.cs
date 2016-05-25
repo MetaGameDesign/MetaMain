@@ -3,18 +3,16 @@ using System.Collections;
 
 public class SceneController : MonoBehaviour {
 
-    public static SceneController Scene;
+    public static SceneController Main;
+    
 
     GameType type;
 
     void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);
-    }
 
-    void Start()
-    {
-        Scene = GetComponent<SceneController>();
+        Main = GetComponent<SceneController>();
     }
 
     public void SetGameType(GameType _type)
@@ -30,17 +28,21 @@ public class SceneController : MonoBehaviour {
     public void SetIdentification()
     {
         type = GameType.Identification;
+
+        MonitorMouse.Main.ActivateClaw();
     }
 
     public void SetDifferentiation()
     {
         type = GameType.Differentiation;
+        
+        MonitorMouse.Main.ActivateHand();
     }
 
     public void OnExitClicked()
     {
         Application.Quit();
     }
-
+    
 
 }

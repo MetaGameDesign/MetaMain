@@ -1230,6 +1230,13 @@ GameObject:
   - 114: {fileID: 920657599}
   - 114: {fileID: 920657598}
   - 114: {fileID: 920657600}
+  - 114: {fileID: 920657634}
+  - 114: {fileID: 920657602}
+  - 114: {fileID: 920657601}
+  - 114: {fileID: 920657638}
+  - 114: {fileID: 920657637}
+  - 114: {fileID: 920657636}
+  - 114: {fileID: 920657635}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -1252,7 +1259,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "Meta\u2019s had a rough start, but the lunch special is Poo-ding! Maybe
-    Meta can bond with some monsters over their favorite meal."
+    Meta can bond with some monsters over his favorite meal."
   description: 
   character: {fileID: 1922690530}
   portrait: {fileID: 0}
@@ -1382,8 +1389,9 @@ MonoBehaviour:
   itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "Disguise it! See if there\u2019s anything here to make the poo-ding
-    look much cooler. Collect some items in Meta's lunchbox."
+  storyText: "Disguise it. See if there\u2019s anything that can make the Poo-ding
+    look cooler. You\u2019ll need an ice cream cone, chocolate sauce, and sprinkles.
+    Put them in the lunchbox."
   description: 
   character: {fileID: 1922690530}
   portrait: {fileID: 0}
@@ -1504,8 +1512,8 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh great \u2013 they hate Meta\u2019s favoriate meal too! They\u2019ll
-    probably make fun of Meta again."
+  storyText: "Oh no! They hate Meta\u2019s favoriate meal too? They might make fun
+    of Meta again."
   description: 
   character: {fileID: 1922690530}
   portrait: {fileID: 0}
@@ -1530,7 +1538,7 @@ MonoBehaviour:
   itemId: 101
   errorMessage: 
   indentLevel: 0
-  storyText: It's so gross!
+  storyText: "It\u2019s so gross, too!"
   description: 
   character: {fileID: 423000120}
   portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
@@ -1555,7 +1563,7 @@ MonoBehaviour:
   itemId: 100
   errorMessage: 
   indentLevel: 0
-  storyText: How old do they think we are?
+  storyText: Or Trick-or-Tea! How old do they think we are?
   description: 
   character: {fileID: 1905803197}
   portrait: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}
@@ -1580,7 +1588,8 @@ MonoBehaviour:
   itemId: 99
   errorMessage: 
   indentLevel: 0
-  storyText: "Poo-ding for lunch? Again? That stuff\u2019s for baby monsters."
+  storyText: "Poo-ding for lunch? Again? This is for baby monsters! We\u2019re learning
+    to scare! Next thing you know they\u2019ll be handing out dolls!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -1623,7 +1632,8 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: Oh gross! Did you just make a Poo-ding sundae? What a weirdo!
+  storyText: Did you just make a Poo-ding sundae? What kind of Poo-ding for brains
+    monster mixes ice cream with that garbage?
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -2106,7 +2116,7 @@ MonoBehaviour:
   itemId: 146
   errorMessage: 
   indentLevel: 0
-  storyText: '...sigh...'
+  storyText: Sigh...
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
@@ -2117,6 +2127,40 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &920657601
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 162
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &920657602
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
 --- !u!114 &920657603
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2277,7 +2321,7 @@ MonoBehaviour:
   indentLevel: 0
   stage: {fileID: 0}
   display: 2
-  character: {fileID: 645897866}
+  character: {fileID: 1286304990}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -2307,9 +2351,9 @@ MonoBehaviour:
   indentLevel: 0
   stage: {fileID: 0}
   display: 1
-  character: {fileID: 645897866}
+  character: {fileID: 1286304990}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: cda05691a71ce354db5d9d724018a93c, type: 3}
+  portrait: {fileID: 21300000, guid: b31e53e4cdfe857478c5f879b357f09d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047173}
@@ -2372,6 +2416,10 @@ MonoBehaviour:
   - {fileID: 920657611}
   - {fileID: 920657568}
   - {fileID: 920657575}
+  - {fileID: 920657638}
+  - {fileID: 920657635}
+  - {fileID: 920657636}
+  - {fileID: 920657637}
   - {fileID: 920657600}
   - {fileID: 920657610}
   - {fileID: 920657567}
@@ -2582,6 +2630,7 @@ MonoBehaviour:
   eventHandler: {fileID: 920657621}
   commandList:
   - {fileID: 920657603}
+  - {fileID: 920657601}
   - {fileID: 920657620}
   - {fileID: 920657616}
   - {fileID: 920657607}
@@ -2648,6 +2697,7 @@ MonoBehaviour:
   eventHandler: {fileID: 920657624}
   commandList:
   - {fileID: 920657604}
+  - {fileID: 920657602}
   - {fileID: 920657623}
   - {fileID: 920657617}
   - {fileID: 920657609}
@@ -2714,6 +2764,7 @@ MonoBehaviour:
   eventHandler: {fileID: 920657627}
   commandList:
   - {fileID: 920657605}
+  - {fileID: 920657634}
   - {fileID: 920657626}
   - {fileID: 920657618}
   - {fileID: 920657615}
@@ -2805,7 +2856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -368.65634, y: 16.417908}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2818,7 +2869,7 @@ MonoBehaviour:
     height: 1007.16406
   selectedBlock: {fileID: 920657613}
   selectedCommands:
-  - {fileID: 920657575}
+  - {fileID: 920657610}
   variables:
   - {fileID: 920657619}
   description: 
@@ -2840,6 +2891,123 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 2
+--- !u!114 &920657634
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 590144361}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &920657635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  errorMessage: 
+  indentLevel: 0
+  storyText: And a dummy!
+  description: 
+  character: {fileID: 423000120}
+  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &920657636
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 165
+  errorMessage: 
+  indentLevel: 0
+  storyText: He still plays with dolls, too. I heard him in front of his locker.
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &920657637
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 164
+  errorMessage: 
+  indentLevel: 0
+  storyText: "Dolls? Keep that up and you\u2019ll never be scary, kid."
+  description: 
+  character: {fileID: 423000120}
+  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &920657638
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920657557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 163
+  errorMessage: 
+  indentLevel: 0
+  storyText: What a weirdo!
+  description: 
+  character: {fileID: 1905803197}
+  portrait: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!1 &1025202138
 GameObject:
   m_ObjectHideFlags: 0
@@ -3036,7 +3204,6 @@ GameObject:
   - 114: {fileID: 1184021722}
   - 114: {fileID: 1184021721}
   - 114: {fileID: 1184021720}
-  - 114: {fileID: 1184021730}
   - 114: {fileID: 1184021728}
   - 114: {fileID: 1184021727}
   - 114: {fileID: 1184021731}
@@ -3044,6 +3211,10 @@ GameObject:
   - 114: {fileID: 1184021733}
   - 114: {fileID: 1184021732}
   - 114: {fileID: 1184021734}
+  - 114: {fileID: 1184021737}
+  - 114: {fileID: 1184021736}
+  - 114: {fileID: 1184021735}
+  - 114: {fileID: 1184021730}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -3182,8 +3353,8 @@ MonoBehaviour:
   itemId: 130
   errorMessage: 
   indentLevel: 0
-  storyText: "I know, I\u2019ll disguise it! I wonder if there\u2019s anything here
-    to make the poo-ding look much cooler. I\u2019ll collect some items in my lunchbox."
+  storyText: "Maybe I can disguise it and make it look cooler! I\u2019ll just need
+    an ice cream cone, chocolate sauce, and sprinkles. I\u2019ll put them in my lunchbox."
   description: 
   character: {fileID: 354758539}
   portrait: {fileID: 0}
@@ -3259,14 +3430,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 137
+  itemId: 148
   errorMessage: 
   indentLevel: 0
-  storyText: "I walk into the cafeteria and see a sign that reads: \u201CToday\u2019s
-    Special: Poo-ding\u201D."
+  storyText: "Dolls? Fairy tales? Keep that up and you\u2019ll never be scary, kid."
   description: 
-  character: {fileID: 354758539}
-  portrait: {fileID: 0}
+  character: {fileID: 1905803197}
+  portrait: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3329,7 +3499,7 @@ MonoBehaviour:
   fadeTexture: {fileID: 0}
 --- !u!114 &1184021734
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1184021718}
@@ -3341,10 +3511,86 @@ MonoBehaviour:
   itemId: 144
   errorMessage: 
   indentLevel: 0
-  storyText: '...sigh...'
+  storyText: Sigh...
   description: 
   character: {fileID: 643315404}
   portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021735
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  errorMessage: 
+  indentLevel: 0
+  storyText: He still plays with dolls, too. I saw him in front of his locker. He
+    still believes in Captain Terror!
+  description: 
+  character: {fileID: 645897866}
+  portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021736
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  errorMessage: 
+  indentLevel: 0
+  storyText: And a dummy!
+  description: 
+  character: {fileID: 423000120}
+  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021737
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  errorMessage: 
+  indentLevel: 0
+  storyText: What a weirdo!
+  description: 
+  character: {fileID: 1905803197}
+  portrait: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3366,8 +3612,8 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh great \u2013 they hate my favorite meal too! They\u2019ll probably
-    make fun of me again."
+  storyText: "Oh no! They hate my favorite meal, too? I don\u2019t want them to make
+    fun of me again."
   description: 
   character: {fileID: 354758539}
   portrait: {fileID: 0}
@@ -3392,7 +3638,7 @@ MonoBehaviour:
   itemId: 101
   errorMessage: 
   indentLevel: 0
-  storyText: It's so gross!
+  storyText: It's so gross, too!
   description: 
   character: {fileID: 423000120}
   portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
@@ -3417,7 +3663,7 @@ MonoBehaviour:
   itemId: 100
   errorMessage: 
   indentLevel: 0
-  storyText: How old do they think we are?
+  storyText: Or Trick-or-Tea! How old do they think we are?
   description: 
   character: {fileID: 1905803197}
   portrait: {fileID: 21300000, guid: 6298964293220544db1ce4b2f6105499, type: 3}
@@ -3442,7 +3688,8 @@ MonoBehaviour:
   itemId: 99
   errorMessage: 
   indentLevel: 0
-  storyText: "Poo-ding for lunch? Again? That stuff\u2019s for baby monsters."
+  storyText: "Poo-ding for lunch? Again? This is for baby monsters! We\u2019re learning
+    to scare! Next thing you know they\u2019ll be handing out dolls!"
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -3467,7 +3714,8 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: Oh gross! Did you just make a Poo-ding sundae? What a weirdo!
+  storyText: Did you just make a Poo-ding sundae? What kind of Poo-ding for brains
+    monster mixes ice cream with that garbage?
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
@@ -3506,7 +3754,7 @@ MonoBehaviour:
   itemId: 80
   errorMessage: 
   indentLevel: 0
-  storyText: "This probably won\u2019t help you disguise your Poo-ding. Plus everyone
+  storyText: "This probably won\u2019t help me disguise my Poo-ding. Plus everyone
     knows it should be eaten with a spoon."
   description: 
   character: {fileID: 0}
@@ -3569,7 +3817,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: "Aren\u2019t you allergic to peanut butter? Better not touch it."
+  storyText: "I\u2019m allergic to peanut butter. Better not touch it."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3617,7 +3865,7 @@ MonoBehaviour:
   itemId: 76
   errorMessage: 
   indentLevel: 0
-  storyText: You can try covering your Poo-ding, but then how will you eat it?
+  storyText: I can try covering my Poo-ding, but then how will I eat it?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3889,8 +4137,8 @@ MonoBehaviour:
   itemId: 55
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019ve had a rough start, but the lunch special is Poo-ding! Maybe
-    I can bond with some monsters over my favorite meal."
+  storyText: "I\u2019ve had a rough start, but the lunch special is Poo-ding! I love
+    Poo-ding! Maybe I can make some friends with my lunch."
   description: 
   character: {fileID: 354758539}
   portrait: {fileID: 0}
@@ -4061,7 +4309,7 @@ MonoBehaviour:
   indentLevel: 0
   stage: {fileID: 0}
   display: 2
-  character: {fileID: 645897866}
+  character: {fileID: 1286304990}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -4091,9 +4339,9 @@ MonoBehaviour:
   indentLevel: 0
   stage: {fileID: 0}
   display: 1
-  character: {fileID: 645897866}
+  character: {fileID: 1286304990}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 870e83b4ee4b8df40ac41367f7951780, type: 3}
+  portrait: {fileID: 21300000, guid: 2f665ab91e1650e459d02d1e75f9fe02, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 441047176}
@@ -4155,6 +4403,10 @@ MonoBehaviour:
   - {fileID: 1184021729}
   - {fileID: 1184021782}
   - {fileID: 1184021745}
+  - {fileID: 1184021737}
+  - {fileID: 1184021736}
+  - {fileID: 1184021735}
+  - {fileID: 1184021730}
   - {fileID: 1184021734}
   - {fileID: 1184021780}
   - {fileID: 1184021733}
@@ -4448,7 +4700,7 @@ MonoBehaviour:
   itemId: 16
   errorMessage: 
   indentLevel: 0
-  storyText: "You\u2019ve never seen Poo-ding look so pretty."
+  storyText: "I\u2019ve never seen Poo-ding look so pretty."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4535,7 +4787,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1184021804}
   commandList:
-  - {fileID: 1184021730}
   - {fileID: 1184021767}
   - {fileID: 1184021741}
   - {fileID: 1184021740}
@@ -4569,7 +4820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -519.4031, y: -10.447769}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -4582,7 +4833,7 @@ MonoBehaviour:
     height: 1007.16406
   selectedBlock: {fileID: 1184021784}
   selectedCommands:
-  - {fileID: 1184021745}
+  - {fileID: 1184021780}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -4696,6 +4947,12 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 493678, guid: e86bf49414051db409943e280b5da0a5, type: 2}
   m_PrefabInternal: {fileID: 1286304988}
+--- !u!114 &1286304990 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11447314, guid: e86bf49414051db409943e280b5da0a5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1286304988}
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
 --- !u!1001 &1378740158
 Prefab:
   m_ObjectHideFlags: 0
@@ -4932,7 +5189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 920657632}
+  selectedFlowchart: {fileID: 1184021807}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1

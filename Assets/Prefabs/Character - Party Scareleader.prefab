@@ -42,10 +42,10 @@ MonoBehaviour:
   nameText: Scarella says...
   nameColor: {r: 0.9821501, g: 0.6764706, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
+  profileSprite: {fileID: 21300000, guid: 824eac44854b9ab45b0bccdc4285d2c0, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 55053a6ba6e61934a85e5131a5596930, type: 3}
-  - {fileID: 21300000, guid: 182b6ff955711684aba02a1c8f815b58, type: 3}
+  - {fileID: 21300000, guid: 824eac44854b9ab45b0bccdc4285d2c0, type: 3}
+  - {fileID: 21300000, guid: d68935c47b28c504fa8563282180668f, type: 3}
   - {fileID: 21300000, guid: af3d6a3bd0f223a4ebb7087a0041c528, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}

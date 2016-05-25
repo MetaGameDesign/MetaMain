@@ -309,6 +309,9 @@ GameObject:
   - 114: {fileID: 520613105}
   - 114: {fileID: 520613104}
   - 114: {fileID: 520613106}
+  - 114: {fileID: 520613155}
+  - 114: {fileID: 520613108}
+  - 114: {fileID: 520613107}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -649,6 +652,40 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &520613107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520613088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 1359891336}
+  methodName: ResetHand
+  delay: 0
+--- !u!114 &520613108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520613088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 1359891336}
+  methodName: ResetHand
+  delay: 0
 --- !u!114 &520613109
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1207,7 +1244,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 216
-    y: 170
+    y: 168.50745
     width: 297
     height: 40
   itemId: 19
@@ -1216,6 +1253,7 @@ MonoBehaviour:
   eventHandler: {fileID: 520613131}
   commandList:
   - {fileID: 520613109}
+  - {fileID: 520613107}
   - {fileID: 520613130}
   - {fileID: 520613126}
   - {fileID: 520613113}
@@ -1282,6 +1320,7 @@ MonoBehaviour:
   eventHandler: {fileID: 520613134}
   commandList:
   - {fileID: 520613110}
+  - {fileID: 520613108}
   - {fileID: 520613133}
   - {fileID: 520613127}
   - {fileID: 520613115}
@@ -1348,6 +1387,7 @@ MonoBehaviour:
   eventHandler: {fileID: 520613137}
   commandList:
   - {fileID: 520613111}
+  - {fileID: 520613155}
   - {fileID: 520613136}
   - {fileID: 520613128}
   - {fileID: 520613125}
@@ -1763,9 +1803,9 @@ MonoBehaviour:
     y: -448.93616
     width: 2164.8027
     height: 1066.9364
-  selectedBlock: {fileID: 520613123}
+  selectedBlock: {fileID: 520613132}
   selectedCommands:
-  - {fileID: 520613118}
+  - {fileID: 520613107}
   variables:
   - {fileID: 520613129}
   description: 
@@ -1775,6 +1815,23 @@ MonoBehaviour:
   saveSelection: 1
   localizationId: 
   hideCommands: []
+--- !u!114 &520613155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 520613088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  errorMessage: 
+  indentLevel: 0
+  targetObject: {fileID: 1359891336}
+  methodName: ResetHand
+  delay: 0
 --- !u!4 &539621422 stripped
 Transform:
   m_PrefabParentObject: {fileID: 467702, guid: 750a944b3335bb8428bd64d5c706f8fb, type: 2}
@@ -4167,9 +4224,9 @@ MonoBehaviour:
     y: -384
     width: 2162.2837
     height: 1269.3977
-  selectedBlock: {fileID: 2029743960}
+  selectedBlock: {fileID: 2029743975}
   selectedCommands:
-  - {fileID: 2029743955}
+  - {fileID: 2029743973}
   variables:
   - {fileID: 2029743966}
   description: 
@@ -4470,7 +4527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2029743991}
+  selectedFlowchart: {fileID: 520613154}
 --- !u!4 &2031054712
 Transform:
   m_ObjectHideFlags: 1

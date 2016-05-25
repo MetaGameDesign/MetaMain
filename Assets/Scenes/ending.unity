@@ -733,7 +733,8 @@ MonoBehaviour:
     width: 2305.6821
     height: 1336.5339
   selectedBlock: {fileID: 1569476886}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1569476890}
   variables: []
   description: 
   stepPause: 0
@@ -768,7 +769,7 @@ MonoBehaviour:
   itemId: 257
   errorMessage: 
   indentLevel: 0
-  storyText: And no one would talk to me.
+  storyText: And everyone ignored me at the party.
   description: 
   character: {fileID: 289998686}
   portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
@@ -1204,7 +1205,8 @@ MonoBehaviour:
     width: 2305.6821
     height: 1336.5339
   selectedBlock: {fileID: 2037288303}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2037288306}
   variables: []
   description: 
   stepPause: 0
@@ -1239,7 +1241,7 @@ MonoBehaviour:
   itemId: 258
   errorMessage: 
   indentLevel: 0
-  storyText: And no one would talk to me.
+  storyText: And everyone ignored me at the party.
   description: 
   character: {fileID: 1441773234}
   portrait: {fileID: 0}
@@ -1314,7 +1316,7 @@ MonoBehaviour:
   itemId: 255
   errorMessage: 
   indentLevel: 0
-  storyText: No one likes Poo-ding, even though it was the school special...
+  storyText: No one likes Poo-ding, even though it's the school special...
   description: 
   character: {fileID: 1441773234}
   portrait: {fileID: 0}
