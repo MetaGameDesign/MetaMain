@@ -3,6 +3,8 @@ using System.Collections;
 
 public class SceneController : MonoBehaviour {
 
+    public AudioSource BackgroundMusic;
+
     public static SceneController Main;
     
 
@@ -44,5 +46,10 @@ public class SceneController : MonoBehaviour {
         Application.Quit();
     }
     
+
+    private void OnApplicationQuit()
+    {
+        BackgroundMusic.Stop();
+    }
 
 }

@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 780102085}
+  selectedFlowchart: {fileID: 1271812895}
 --- !u!4 &675063912
 Transform:
   m_ObjectHideFlags: 1
@@ -122,6 +122,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -161,7 +162,7 @@ MonoBehaviour:
   itemId: 106
   errorMessage: 
   indentLevel: 0
-  storyText: You head to your locker to drop off some things before heading to lunch...
+  storyText: You head to the lockers to drop off a few things before going to lunch...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -221,8 +222,8 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: You shuffle out of the classroom, still upset at how badly you messed
-    up during class.
+  storyText: You shuffle away from Spookulus 1, still upset over failing a basic problem
+    on the first day of class.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -258,8 +259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 214.93166
-    y: 88.982254
+    x: 210.13875
+    y: 86.5858
     width: 120
     height: 40
   itemId: 83
@@ -297,7 +298,7 @@ MonoBehaviour:
     height: 1336.5339
   selectedBlock: {fileID: 780102084}
   selectedCommands:
-  - {fileID: 780102081}
+  - {fileID: 780102078}
   variables: []
   description: 
   stepPause: 0
@@ -315,6 +316,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -373,6 +375,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.03, y: -0.05, z: 0}
   m_LocalScale: {x: 1.3581444, y: 1.5245003, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -412,8 +415,7 @@ MonoBehaviour:
   itemId: 107
   errorMessage: 
   indentLevel: 0
-  storyText: Meta heads to their locker to drop off a few things before heading to
-    lunch...
+  storyText: Meta heads to the lockers to drop off a few things before going to lunch...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -473,7 +475,7 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: Meta shuffled away from Spookulus 1, still upset over failing a basic
+  storyText: Meta shuffles away from Spookulus 1, still upset over failing a basic
     problem on the first day of class.
   description: 
   character: {fileID: 0}
@@ -549,7 +551,7 @@ MonoBehaviour:
     height: 1336.5339
   selectedBlock: {fileID: 1271812894}
   selectedCommands:
-  - {fileID: 1271812891}
+  - {fileID: 1271812888}
   variables: []
   description: 
   stepPause: 0
@@ -567,6 +569,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -594,6 +597,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1718767165}
   m_Father: {fileID: 0}
@@ -681,6 +685,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -755,6 +760,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -891,6 +897,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7

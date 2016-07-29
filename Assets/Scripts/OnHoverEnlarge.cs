@@ -42,6 +42,24 @@ public class OnHoverEnlarge : MonoBehaviour {
             
     }
 
+    void OnMouseDown()
+    {
+        if (isHoverActive)
+        {
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateClosedHand();
+        }
+        else
+        {
+            if (SceneController.Main.GetGameType() == GameType.Identification)
+                MonitorMouse.Main.ActivateClaw();
+            else
+                MonitorMouse.Main.ActivateHand();
+        }
+    }
+
     void OnMouseExit()
     {
         if (isHoverActive)

@@ -114,6 +114,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.15, y: 0.86, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 6
@@ -234,6 +235,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 620917701}
   - {fileID: 380965429}
@@ -275,6 +277,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.02, y: -0.91, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 7
@@ -395,6 +398,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 645897865}
   - {fileID: 643315403}
@@ -429,6 +433,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.85, y: 0.02, z: 0}
   m_LocalScale: {x: 1.3200489, y: 1.3460238, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 1
@@ -2420,8 +2425,8 @@ MonoBehaviour:
   itemId: 18
   errorMessage: 
   indentLevel: 0
-  storyText: Captain Terror, the leader of the Spooking Squadron! He always gives
-    Meta confidence and advice!
+  storyText: Captain Terror, the leader of the Spooking Squadron! He always knows
+    what to do!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2642,9 +2647,9 @@ MonoBehaviour:
   itemId: 4
   errorMessage: 
   indentLevel: 0
-  storyText: "This bully jus won't let up! Meta needs help to calm down and forget
-    about how mean that bully\u2019s being. Find things from the locker to support
-    Meta and put them in Meta\u2019s backpack."
+  storyText: "This bully just won\u2019t let up! Find three things to help Meta calm
+    down and forget about how mean he\u2019s being. Put some things from Meta's locker
+    into their backpack."
   description: 
   character: {fileID: 738426711}
   portrait: {fileID: 0}
@@ -2805,9 +2810,8 @@ MonoBehaviour:
     y: -354.4776
     width: 2197.0447
     height: 1007.16406
-  selectedBlock: {fileID: 443532406}
-  selectedCommands:
-  - {fileID: 443532432}
+  selectedBlock: {fileID: 443532397}
+  selectedCommands: []
   variables:
   - {fileID: 443532403}
   description: 
@@ -2826,6 +2830,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 2
@@ -3077,7 +3082,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &443532432
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443532334}
@@ -3094,7 +3099,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &443532433
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443532334}
@@ -3111,7 +3116,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &443532434
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443532334}
@@ -3155,6 +3160,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.68, y: -0.97, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 5
@@ -3289,6 +3295,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -3399,6 +3406,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.83, y: -0.01, z: 0}
   m_LocalScale: {x: 1.3271748, y: 1.3428568, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -3637,6 +3645,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 441047177}
   m_RootOrder: 5
@@ -3709,6 +3718,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.15, y: -1.93, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 3
@@ -3918,6 +3928,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 1
@@ -4347,7 +4358,7 @@ MonoBehaviour:
     people sometimes! You just have to keep trying!\u201D"
   description: 
   character: {fileID: 748914629}
-  portrait: {fileID: 21300000, guid: bb1cc36fcc981be43a789e8e1c3d91af, type: 3}
+  portrait: {fileID: 21300000, guid: 953ad9fb5876f5f4da7cb4a879e5d7e5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4615,7 +4626,7 @@ MonoBehaviour:
   itemId: 80
   errorMessage: 
   indentLevel: 0
-  storyText: "I don\u2019t think Professor Phantom can help with this\u2026"
+  storyText: Bringing out a math textbook after last class might not be a good idea.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4677,7 +4688,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: "I don\u2019t think he wants to play a round of Chupacabraball."
+  storyText: "That bully probably doesn\u2019t want to play a round of Chupacabraball."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4725,7 +4736,7 @@ MonoBehaviour:
   itemId: 76
   errorMessage: 
   indentLevel: 0
-  storyText: "Why do I have these? I don\u2019t even wear shoes!"
+  storyText: "Shoes make for funny hand-puppets, but they won\u2019t help here."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5574,7 +5585,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "\u201CDon\u2019t worry if things are hard, and just do the best you
-    can.\u201D It\u2019s okay; Mom knows what she\u2019s talking about!"
+    can.\u201D That\u2019ll definitely encourage me!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5993,8 +6004,7 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 1184021784}
-  selectedCommands:
-  - {fileID: 1184021721}
+  selectedCommands: []
   variables:
   - {fileID: 1184021790}
   description: 
@@ -6051,6 +6061,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.23, y: -2.68, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 4
@@ -6174,7 +6185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 443532421}
+  selectedFlowchart: {fileID: 1184021807}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1
@@ -6184,6 +6195,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -6216,6 +6228,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.36, y: -3.82, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 8
@@ -6383,6 +6396,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -6464,6 +6478,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.58, y: -3.26, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 2
@@ -6537,6 +6552,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 441047175}
   - {fileID: 1184021719}
@@ -6628,6 +6644,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

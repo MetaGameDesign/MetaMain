@@ -114,6 +114,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.29, y: 2.01, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 6
@@ -234,6 +235,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 380965429}
   - {fileID: 1747084898}
@@ -277,6 +279,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.82, y: -0.1, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 7
@@ -398,6 +401,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.81, y: -0.04, z: 0}
   m_LocalScale: {x: 1.3224242, y: 1.3301884, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 9
@@ -507,6 +511,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 645897865}
   - {fileID: 643315403}
@@ -543,6 +548,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.81, y: -0.05, z: 0}
   m_LocalScale: {x: 1.3271748, y: 1.3270215, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -776,6 +782,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.54, y: 4.11, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 2
@@ -838,6 +845,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.73, y: 3.8, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 5
@@ -972,6 +980,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1106,6 +1115,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 441047177}
   m_RootOrder: 5
@@ -1259,7 +1269,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "Meta\u2019s had a rough start, but the lunch special is Poo-ding! Maybe
-    Meta can bond with some monsters over his favorite meal."
+    Meta can bond with some monsters over their favorite meal."
   description: 
   character: {fileID: 1922690530}
   portrait: {fileID: 0}
@@ -1541,7 +1551,7 @@ MonoBehaviour:
   storyText: "It\u2019s so gross, too!"
   description: 
   character: {fileID: 423000120}
-  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  portrait: {fileID: 21300000, guid: 8ac9aed6174a91f45ae306a4249cc934, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1735,7 +1745,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: "Isn\u2019t Meta allergic to peanut butter? Better not touch it."
+  storyText: Boo Butter would taste terrible on Poo-ding!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2856,11 +2866,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: -368.65634, y: 16.417908}
+  scrollPos: {x: -50.746002, y: 19.402985}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -350
@@ -2868,8 +2878,7 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 920657613}
-  selectedCommands:
-  - {fileID: 920657610}
+  selectedCommands: []
   variables:
   - {fileID: 920657619}
   description: 
@@ -2888,6 +2897,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 2
@@ -2910,7 +2920,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &920657635
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920657557}
@@ -2925,7 +2935,7 @@ MonoBehaviour:
   storyText: And a dummy!
   description: 
   character: {fileID: 423000120}
-  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  portrait: {fileID: 21300000, guid: 8ac9aed6174a91f45ae306a4249cc934, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2975,7 +2985,7 @@ MonoBehaviour:
   storyText: "Dolls? Keep that up and you\u2019ll never be scary, kid."
   description: 
   character: {fileID: 423000120}
-  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  portrait: {fileID: 21300000, guid: 8ac9aed6174a91f45ae306a4249cc934, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3037,6 +3047,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.33, y: -3.48, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 3
@@ -3215,6 +3226,7 @@ GameObject:
   - 114: {fileID: 1184021736}
   - 114: {fileID: 1184021735}
   - 114: {fileID: 1184021730}
+  - 114: {fileID: 1184021742}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -3231,6 +3243,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 1
@@ -3565,7 +3578,7 @@ MonoBehaviour:
   storyText: And a dummy!
   description: 
   character: {fileID: 423000120}
-  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  portrait: {fileID: 21300000, guid: 8ac9aed6174a91f45ae306a4249cc934, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3641,7 +3654,7 @@ MonoBehaviour:
   storyText: It's so gross, too!
   description: 
   character: {fileID: 423000120}
-  portrait: {fileID: 21300000, guid: baff418882317fb44bada054138bf0b2, type: 3}
+  portrait: {fileID: 21300000, guid: 8ac9aed6174a91f45ae306a4249cc934, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3693,6 +3706,32 @@ MonoBehaviour:
   description: 
   character: {fileID: 645897866}
   portrait: {fileID: 21300000, guid: 15bb60cc508c2854387e20ebd776e928, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1184021742
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  errorMessage: 
+  indentLevel: 0
+  storyText: I've had a rough start, but the lunch special is Poo-ding! Maybe I can
+    bond with some monsters over their favorite meal.
+  description: 
+  character: {fileID: 354758539}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3817,7 +3856,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019m allergic to peanut butter. Better not touch it."
+  storyText: Boo Butter would taste terrible on Poo-ding!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4137,8 +4176,8 @@ MonoBehaviour:
   itemId: 55
   errorMessage: 
   indentLevel: 0
-  storyText: "I\u2019ve had a rough start, but the lunch special is Poo-ding! I love
-    Poo-ding! Maybe I can make some friends with my lunch."
+  storyText: "I walk into the cafeteria and see a sign that reads: \u201CToday\u2019s
+    Special: Poo-ding\u201D."
   description: 
   character: {fileID: 354758539}
   portrait: {fileID: 0}
@@ -4788,6 +4827,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1184021804}
   commandList:
   - {fileID: 1184021767}
+  - {fileID: 1184021742}
   - {fileID: 1184021741}
   - {fileID: 1184021740}
   - {fileID: 1184021739}
@@ -4820,11 +4860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: -519.4031, y: -10.447769}
+  scrollPos: {x: -12.916534, y: 34.61534}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 0.43000045
   scrollViewRect:
     serializedVersion: 2
     x: -350
@@ -4832,8 +4872,7 @@ MonoBehaviour:
     width: 2197.0447
     height: 1007.16406
   selectedBlock: {fileID: 1184021784}
-  selectedCommands:
-  - {fileID: 1184021780}
+  selectedCommands: []
   variables:
   - {fileID: 1184021790}
   description: 
@@ -4868,6 +4907,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.81, y: 0.04, z: 0}
   m_LocalScale: {x: 1.322424, y: 1.3460238, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 10
@@ -5024,6 +5064,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.35, y: -3.46, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 4
@@ -5189,7 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1184021807}
+  selectedFlowchart: {fileID: 920657632}
 --- !u!4 &1474209072
 Transform:
   m_ObjectHideFlags: 1
@@ -5199,6 +5240,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -5231,6 +5273,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.37, y: -1.44, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 8
@@ -5398,6 +5441,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -5479,6 +5523,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.65, y: 0.55, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 1
@@ -5614,6 +5659,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 441047175}
   - {fileID: 1184021719}
@@ -5705,6 +5751,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

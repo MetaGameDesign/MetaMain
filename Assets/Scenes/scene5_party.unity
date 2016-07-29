@@ -114,6 +114,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.16, y: -1.7, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 8
@@ -336,6 +337,13 @@ GameObject:
   - 114: {fileID: 106480337}
   - 114: {fileID: 106480336}
   - 114: {fileID: 106480335}
+  - 114: {fileID: 106480339}
+  - 114: {fileID: 106480366}
+  - 114: {fileID: 106480365}
+  - 114: {fileID: 106480364}
+  - 114: {fileID: 106480352}
+  - 114: {fileID: 106480342}
+  - 114: {fileID: 106480340}
   m_Layer: 0
   m_Name: Flowchart - Differentiation
   m_TagString: Untagged
@@ -506,7 +514,7 @@ MonoBehaviour:
   itemId: 257
   errorMessage: 
   indentLevel: 0
-  storyText: Wait, what? But I made them cake. Why were they ignoring me?
+  storyText: Wait, what? But I made them cake. Why did they ignore me?
   description: 
   character: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
@@ -564,7 +572,7 @@ MonoBehaviour:
   storyText: But- but-
   description: 
   character: {fileID: 1685118631}
-  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -929,10 +937,10 @@ MonoBehaviour:
   itemId: 171
   errorMessage: 
   indentLevel: 0
-  storyText: Those monsters look nice. Maybe Meta should try talking to them.
+  storyText: Those monsters look nice. Maybe I should try talking to them.
   description: 
-  character: {fileID: 1226946423}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1314,11 +1322,11 @@ MonoBehaviour:
   itemId: 326
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh! It looks like there\u2019s going to be a party! Maybe Meta should
-    ask the scareleader about it."
+  storyText: "It looks like there\u2019s going to be a party! Maybe I should ask the
+    scareleader about it."
   description: 
-  character: {fileID: 1226946423}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1328,7 +1336,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &106480335
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 106480288}
@@ -1354,7 +1362,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &106480336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 106480288}
@@ -1379,7 +1387,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &106480337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 106480288}
@@ -1417,7 +1425,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "Help Meta make a cake for the party! They\u2019ll need milk, flour,
-    and frosting. When the items have been collected, drag them to the mixing bowl."
+    and frosting. Drag the items to the mixing bowl when you\u2019ve found them."
   description: 
   character: {fileID: 1226946423}
   portrait: {fileID: 0}
@@ -1428,6 +1436,54 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &106480339
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 334
+  errorMessage: 
+  indentLevel: 0
+  stage: {fileID: 0}
+  display: 3
+  character: {fileID: 1685118631}
+  replacedCharacter: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: b11a2ab99767b0c4d96db52f8858a878, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &106480340
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 340
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 573007100}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &106480341
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1453,6 +1509,24 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &106480342
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 339
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 573007100}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &106480343
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1527,10 +1601,10 @@ MonoBehaviour:
   itemId: 137
   errorMessage: 
   indentLevel: 0
-  storyText: In the hallway, there's a scareleader slipping flyers in lockers.
+  storyText: Oh, there's a scareleader slipping flyers into lockers.
   description: 
-  character: {fileID: 1226946423}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 2fed5308ba1c09640836bc35fc987fa7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1643,6 +1717,24 @@ MonoBehaviour:
   targetObject: {fileID: 62573250}
   methodName: SetHoverInactive
   delay: 0
+--- !u!114 &106480352
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 338
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 1747084897}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &106480353
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1682,10 +1774,10 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: The cake looks great! Time for Meta to head to the party.
+  storyText: The cake looks great! Time to head to the party.
   description: 
-  character: {fileID: 1226946423}
-  portrait: {fileID: 0}
+  character: {fileID: 1685118631}
+  portrait: {fileID: 21300000, guid: 9eb6aab98d9e2f043a2dee87939b316c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1881,6 +1973,60 @@ MonoBehaviour:
   eventHandler: {fileID: 106480362}
   commandList:
   - {fileID: 106480361}
+--- !u!114 &106480364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 337
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 62573250}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &106480365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 1576372004}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &106480366
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 106480288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 335
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 153938406}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &106480370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2254,11 +2400,17 @@ MonoBehaviour:
   - {fileID: 106480351}
   - {fileID: 106480350}
   - {fileID: 106480349}
+  - {fileID: 106480366}
+  - {fileID: 106480365}
+  - {fileID: 106480364}
+  - {fileID: 106480352}
+  - {fileID: 106480342}
   - {fileID: 106480414}
   - {fileID: 106480354}
   - {fileID: 106480413}
   - {fileID: 106480323}
   - {fileID: 106480321}
+  - {fileID: 106480340}
   - {fileID: 106480320}
   - {fileID: 106480322}
   - {fileID: 106480318}
@@ -2443,7 +2595,8 @@ MonoBehaviour:
   itemId: 20
   errorMessage: 
   indentLevel: 0
-  storyText: "Frosting\u2019s the best part! Don\u2019t let Meta eat it all now."
+  storyText: "Frosting\u2019s the best part! Meta wishes they could just eat it all
+    now."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2669,13 +2822,14 @@ MonoBehaviour:
   - {fileID: 106480344}
   - {fileID: 106480292}
   - {fileID: 106480345}
-  - {fileID: 106480334}
   - {fileID: 106480427}
+  - {fileID: 106480334}
   - {fileID: 106480353}
   - {fileID: 106480302}
   - {fileID: 106480301}
   - {fileID: 106480300}
   - {fileID: 106480343}
+  - {fileID: 106480339}
   - {fileID: 106480299}
   - {fileID: 106480423}
   - {fileID: 106480425}
@@ -2695,20 +2849,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: -343.10266, y: 36.20684}
+  scrollPos: {x: 94.828064, y: -3.4482803}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.5800004
+  zoom: 0.49000046
   scrollViewRect:
     serializedVersion: 2
     x: -448.27576
     y: -354.4776
     width: 2295.3198
     height: 1056.5464
-  selectedBlock: {fileID: 106480392}
+  selectedBlock: {fileID: 106480422}
   selectedCommands:
-  - {fileID: 106480297}
+  - {fileID: 106480375}
   variables:
   - {fileID: 106480398}
   description: 
@@ -2727,6 +2881,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 1
@@ -2876,8 +3031,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82.75862
-    y: 132.75856
+    x: 80.71779
+    y: 134.79936
     width: 219
     height: 40
   itemId: 210
@@ -3019,7 +3174,7 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   stage: {fileID: 0}
-  display: 3
+  display: 1
   character: {fileID: 1685118631}
   replacedCharacter: {fileID: 1685118631}
   portrait: {fileID: 21300000, guid: 2a8515c37c274e247b3ef661b4da2ff5, type: 3}
@@ -3058,6 +3213,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 380965429}
   - {fileID: 653010764}
@@ -3073,6 +3229,7 @@ Transform:
   - {fileID: 172972125}
   - {fileID: 1194055189}
   - {fileID: 1388649330}
+  - {fileID: 573007102}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1001 &128633176
@@ -3146,6 +3303,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.87, y: -1.28, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 9
@@ -3267,6 +3425,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
   m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 11
@@ -3324,6 +3483,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 645897865}
   - {fileID: 643315403}
@@ -3439,6 +3599,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: -0.17364822, w: 0.9848078}
   m_LocalPosition: {x: 6.96, y: -2.58, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 2
@@ -3467,6 +3628,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.84, y: -0.02, z: 0}
   m_LocalScale: {x: 1.3157456, y: 1.3301885, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 0
@@ -3669,6 +3831,65 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22410274, guid: c6289d5f8fa843145a2355af9cb09719,
     type: 2}
   m_PrefabInternal: {fileID: 441047172}
+--- !u!1 &573007100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 573007102}
+  - 212: {fileID: 573007101}
+  m_Layer: 0
+  m_Name: cake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &573007101
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573007100}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b1b8dbd8ad705c74aa2ffb746fb7b092, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &573007102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573007100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.72, y: -1.27, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 119849623}
+  m_RootOrder: 14
 --- !u!1 &573278289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,6 +3919,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.74, y: 2.1, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 7
@@ -3832,6 +4054,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -3958,6 +4181,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.07, z: 0}
   m_LocalScale: {x: 1.2939203, y: 1.3670275, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 1
@@ -4028,6 +4252,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 441047177}
   m_RootOrder: 5
@@ -4152,6 +4377,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.97, y: 2.51, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 5
@@ -4305,6 +4531,7 @@ GameObject:
   - 212: {fileID: 1131489293}
   - 61: {fileID: 1131489292}
   - 114: {fileID: 1131489291}
+  - 114: {fileID: 1131489294}
   m_Layer: 0
   m_Name: ClickableSprite - Large Party Poster
   m_TagString: Untagged
@@ -4321,6 +4548,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: 0.059999995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 3
@@ -4384,6 +4612,19 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!114 &1131489294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1131489289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc68161cefe5344bb5b7dbeaed89336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleIncrease: 1
+  originalScale: 1
 --- !u!1 &1184021718
 GameObject:
   m_ObjectHideFlags: 0
@@ -4496,6 +4737,12 @@ GameObject:
   - 114: {fileID: 1184021764}
   - 114: {fileID: 1184021763}
   - 114: {fileID: 1184021761}
+  - 114: {fileID: 1184021781}
+  - 114: {fileID: 1184021780}
+  - 114: {fileID: 1184021772}
+  - 114: {fileID: 1184021771}
+  - 114: {fileID: 1184021770}
+  - 114: {fileID: 1184021769}
   m_Layer: 0
   m_Name: Flowchart - Identification
   m_TagString: Untagged
@@ -4512,6 +4759,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1929082171}
   m_RootOrder: 2
@@ -4708,7 +4956,7 @@ MonoBehaviour:
   itemId: 137
   errorMessage: 
   indentLevel: 0
-  storyText: In the hallway, I see a scareleader slipping flyers in lockers.
+  storyText: Oh, there's a scareleader slipping flyers into lockers.
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -4986,7 +5234,7 @@ MonoBehaviour:
   itemId: 81
   errorMessage: 
   indentLevel: 0
-  storyText: The cake looks great! Time for the party!
+  storyText: The cake looks great! Time to head to the party.
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -5333,9 +5581,9 @@ MonoBehaviour:
   itemId: 288
   errorMessage: 
   indentLevel: 0
-  storyText: Wait, what? But I made them cake. Why were they ignoring me?
+  storyText: Wait, what? But I made them cake. Why did they ignore me?
   description: 
-  character: {fileID: 643315404}
+  character: {fileID: 998255572}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5484,8 +5732,8 @@ MonoBehaviour:
   itemId: 291
   errorMessage: 
   indentLevel: 0
-  storyText: "Oh! It looks like there\u2019s going to be a party! Maybe I should ask
-    the scareleader about it."
+  storyText: "It looks like there\u2019s going to be a party! Maybe I should ask the
+    scareleader about it."
   description: 
   character: {fileID: 998255572}
   portrait: {fileID: 0}
@@ -5496,6 +5744,78 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1184021769
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 341
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 573007100}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1184021770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 340
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 573007100}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1184021771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 339
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 1747084897}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1184021772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 338
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 62573250}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1184021773
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5640,6 +5960,42 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &1184021780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 337
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 1576372004}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1184021781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184021718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 153938406}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1184021783
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5686,9 +6042,15 @@ MonoBehaviour:
   - {fileID: 1184021725}
   - {fileID: 1184021724}
   - {fileID: 1184021723}
+  - {fileID: 1184021781}
+  - {fileID: 1184021780}
+  - {fileID: 1184021772}
+  - {fileID: 1184021771}
+  - {fileID: 1184021770}
   - {fileID: 1184021745}
   - {fileID: 1184021729}
   - {fileID: 1184021727}
+  - {fileID: 1184021769}
   - {fileID: 1184021726}
   - {fileID: 1184021728}
   - {fileID: 1184021830}
@@ -5870,7 +6232,7 @@ MonoBehaviour:
   itemId: 20
   errorMessage: 
   indentLevel: 0
-  storyText: "Frosting\u2019s the best part! I can't eat it all now."
+  storyText: "Frosting\u2019s the best part! I wish I could just eat it all now."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5936,8 +6298,8 @@ MonoBehaviour:
   itemId: 18
   errorMessage: 
   indentLevel: 0
-  storyText: "Milk will make the cake moist...and make my growing monsters\u2019 bones
-    strong, too!"
+  storyText: Milk will make the cake moist...and make my growing monster bones strong,
+    too!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6195,19 +6557,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1.0
-  scrollPos: {x: -284.4823, y: 32.758575}
+  scrollPos: {x: 149.48297, y: 80.51712}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.5800004
+  zoom: 0.40000045
   scrollViewRect:
     serializedVersion: 2
     x: -393.10342
     y: -354.4776
     width: 2240.1477
     height: 1087.5808
-  selectedBlock: {fileID: 1184021784}
-  selectedCommands: []
+  selectedBlock: {fileID: 1184021840}
+  selectedCommands:
+  - {fileID: 1184021839}
   variables:
   - {fileID: 1184021790}
   description: 
@@ -6827,6 +7190,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: 0.060000002, z: 0}
   m_LocalScale: {x: 1.2939203, y: 1.3301884, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 12
@@ -7079,6 +7443,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.19, y: -3.97, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 6
@@ -7254,6 +7619,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -7286,6 +7652,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.52, y: -3.52, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 10
@@ -7453,6 +7820,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -7534,6 +7902,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.09, y: -1.7, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 119849623}
   m_RootOrder: 4
@@ -7663,6 +8032,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 441047175}
   - {fileID: 106480411}
@@ -7754,6 +8124,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

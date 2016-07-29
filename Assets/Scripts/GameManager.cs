@@ -30,4 +30,9 @@ public class GameManager : MonoBehaviour {
     {
         MonitorMouse.Main.ActivateHand();
     }
+
+    public void ResetClaw()
+    {
+        MonitorMouse.Main.ActivateClaw();
+    }
 }

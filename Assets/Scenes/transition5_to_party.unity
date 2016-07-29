@@ -109,7 +109,7 @@ GameObject:
   m_IsActive: 0
 --- !u!114 &113521165
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 113521164}
@@ -121,9 +121,8 @@ MonoBehaviour:
   itemId: 105
   errorMessage: 
   indentLevel: 0
-  storyText: There was no way that you could ever be something as cool as a scareleader.
-    You may as well just forget about it entirely and try to find something fun to
-    do...
+  storyText: If only there was something fun that you could do to forget about this
+    terrible day...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -183,8 +182,8 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: You walk back into the school, head still aching from the disaster of
-    scareleading tryouts. How could you have been so stupid?
+  storyText: You walk back into the school, head still spinning from the disaster
+    of scareleading tryouts.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -277,6 +276,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1293443244}
+  selectedFlowchart: {fileID: 113521171}
 --- !u!4 &675063912
 Transform:
   m_ObjectHideFlags: 1
@@ -317,6 +317,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -375,6 +376,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.03, y: -0.05, z: 0}
   m_LocalScale: {x: 1.3581444, y: 1.5245003, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -449,7 +451,8 @@ MonoBehaviour:
   itemId: 102
   errorMessage: 
   indentLevel: 0
-  storyText: Meta sadly walked back into the school.
+  storyText: Meta walks back into the school, head still spinning from the disaster
+    of scareleading tryouts.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -542,12 +545,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!114 &1293443246
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1293443238}
@@ -559,9 +563,8 @@ MonoBehaviour:
   itemId: 105
   errorMessage: 
   indentLevel: 0
-  storyText: ' After being laughed at and yelled at all day, Meta was tired of school.
-    If only there was something fun that Meta could do to forget about this terrible
-    day...'
+  storyText: If only there was something fun that Meta could do to forget about this
+    terrible day...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -596,6 +599,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1718767165}
   m_Father: {fileID: 0}
@@ -683,6 +687,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -757,6 +762,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -798,6 +804,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7

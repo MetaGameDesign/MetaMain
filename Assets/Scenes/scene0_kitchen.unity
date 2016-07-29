@@ -203,6 +203,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.4448717, y: -2.553546, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 1
@@ -230,6 +231,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1324291711}
   - {fileID: 2029743943}
@@ -328,6 +330,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 443996792}
   m_RootOrder: 2
@@ -459,7 +462,7 @@ MonoBehaviour:
   itemId: 59
   errorMessage: 
   indentLevel: 0
-  storyText: Meta doesn't have to cook anything in class today!
+  storyText: Meta doesn't need to cook anything in class!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -654,7 +657,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &520613107
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 520613088}
@@ -671,7 +674,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &520613108
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 520613088}
@@ -989,7 +992,7 @@ MonoBehaviour:
   itemId: 30
   errorMessage: 
   indentLevel: 0
-  storyText: "Meta shouldn\u2019t forget to say goodbye to Mom!"
+  storyText: Meta can't forget to say goodbye to Mom!
   description: 
   character: {fileID: 1193505690}
   portrait: {fileID: 0}
@@ -1205,7 +1208,7 @@ MonoBehaviour:
   itemId: 20
   errorMessage: 
   indentLevel: 0
-  storyText: Don't forget Meta's hat! So stylish.
+  storyText: Can't forget Meta's hat! So stylish.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1685,8 +1688,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: "It will be exciting for Meta to go to a new school! Especially in a
-    big city. It\u2019s going to be a big day for Meta, so help them meet their mother
-    for breakfast."
+    big city. It\u2019s going to be a big day for Meta, so help them meet mother for
+    breakfast."
   description: 
   character: {fileID: 1193505690}
   portrait: {fileID: 0}
@@ -1796,16 +1799,15 @@ MonoBehaviour:
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 0.75999975
   scrollViewRect:
     serializedVersion: 2
     x: -361.70215
     y: -448.93616
     width: 2164.8027
     height: 1066.9364
-  selectedBlock: {fileID: 520613132}
-  selectedCommands:
-  - {fileID: 520613107}
+  selectedBlock: {fileID: 520613101}
+  selectedCommands: []
   variables:
   - {fileID: 520613129}
   description: 
@@ -1817,7 +1819,7 @@ MonoBehaviour:
   hideCommands: []
 --- !u!114 &520613155
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 520613088}
@@ -1913,6 +1915,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1997,6 +2000,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.86, y: -0.17, z: 0}
   m_LocalScale: {x: 1.322424, y: 1.4305009, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 0
@@ -2111,6 +2115,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.58, y: -0.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 4
@@ -2231,6 +2236,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.8351285, y: 0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 704018784}
   - {fileID: 402393319}
@@ -2318,6 +2324,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.56, y: 3.22, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 5
@@ -2456,6 +2463,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 317.53604, y: 136.5781, z: 0.51416665}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2618,6 +2626,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 539621422}
   - {fileID: 751584515}
@@ -2712,6 +2721,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.71, y: -1.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 2
@@ -2837,6 +2847,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 2.49, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 6
@@ -3016,6 +3027,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -3155,6 +3167,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8351285, y: -0.06354585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 443996792}
   m_RootOrder: 1
@@ -3742,7 +3755,7 @@ MonoBehaviour:
   itemId: 18
   errorMessage: 
   indentLevel: 0
-  storyText: Mom packed Poo-ding for lunch! Your favorite.
+  storyText: It's Poo-ding! Your favorite food.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4109,8 +4122,8 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   storyText: Going to a new school sounds exciting! Especially in a big city. It's
-    going to be a big day, so I should get started! I need to go and meet my mother
-    for breakfast.
+    going to be a big day, so I should get started! I need to go and meet mother for
+    breakfast.
   description: 
   character: {fileID: 1976356286}
   portrait: {fileID: 0}
@@ -4224,9 +4237,8 @@ MonoBehaviour:
     y: -384
     width: 2162.2837
     height: 1269.3977
-  selectedBlock: {fileID: 2029743975}
-  selectedCommands:
-  - {fileID: 2029743973}
+  selectedBlock: {fileID: 2029743990}
+  selectedCommands: []
   variables:
   - {fileID: 2029743966}
   description: 
@@ -4537,6 +4549,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -4569,6 +4582,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.2, y: 2.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1027236070}
   m_RootOrder: 3
